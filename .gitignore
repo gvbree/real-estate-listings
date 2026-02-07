@@ -1,0 +1,10 @@
+**/__pycache__/
+data/
+ddl/
+
+.env
+config.py
+
+.vscode/
+.spyproject/
+.ipynb_checkpoints/
