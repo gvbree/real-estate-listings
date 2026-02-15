@@ -5,7 +5,7 @@ from .insert_sql import insert_sql
 
 def csv_to_db(
         csv_file, 
-        csv_path:str = f"{config.base_path}/data"
+        csv_path:str = f"{config.BASE_PATH}/data/db"
         ):
     df = pd.read_csv(f"{csv_path}/{csv_file}.csv")
     print(f"Reading {csv_path}/{csv_file}.csv")

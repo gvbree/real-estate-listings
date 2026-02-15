@@ -1,10 +1,8 @@
 **/__pycache__/
-data/
+data/db
 ddl/
-
-.env
-config.py
-
 .vscode/
 .spyproject/
 .ipynb_checkpoints/
+
+.env

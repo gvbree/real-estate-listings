@@ -12,7 +12,7 @@ def geo_data_to_csv():
     """
     
     df = query_to_df(query)
-    csv_path = f"{config.base_path}/data/geo.csv"
+    csv_path = f"{config.BASE_PATH}/data/geo.csv"
     
     df.to_csv(csv_path, index=False, encoding='utf-8-sig')
     print(f"Created {csv_path} successfully!")

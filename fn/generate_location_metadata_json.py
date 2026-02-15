@@ -6,7 +6,7 @@ def generate_location_metadata_json():
     for adm_div in ["bundesland", "gemeinde", "bezirk"]:
         output_json = f"{adm_div}_centroids.json"
         
-        with open(f"{config.base_path}/data/{adm_div}_999_geo.json", 'r', encoding='utf-8') as f:
+        with open(f"{config.BASE_PATH}/data/{adm_div}_999_geo.json", 'r', encoding='utf-8') as f:
             data = json.load(f)
     
         metadata = {}
@@ -27,7 +27,7 @@ def generate_location_metadata_json():
                 "max_lon": max_lon
             }
     
-        with open(f"{config.base_path}/data/{output_json}", 'w', encoding='utf-8') as f:
+        with open(f"{config.BASE_PATH}/data/{output_json}", 'w', encoding='utf-8') as f:
             json.dump(metadata, f, indent=4, ensure_ascii=False)
     
         print(f"Success! Created {output_json} with {len(metadata)} locations.")

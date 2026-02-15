@@ -1,6 +1,6 @@
 import streamlit as st
-from fn.load_geo_values import load_geo_values
-from fn.load_geo_kpi import load_geo_kpi
+from fn.load_csv_data import load_csv_data
+from fn.load_parquet_data import load_parquet_data
 from fn.render_choropleth import render_choropleth
                 
 def get_values(df, col):
@@ -33,6 +33,7 @@ def run_app():
         </style>
         """, unsafe_allow_html=True)
         
+    load_ts_placeholder = st.sidebar.empty()
     coverage_placeholder = st.sidebar.empty()
     st.sidebar.header("Configuration")
 
@@ -48,7 +49,7 @@ def run_app():
         key="sb_kpi"
     )
     
-    geo_df = load_geo_values()
+    geo_df = load_csv_data("geo")
     
     df_bdl = geo_df.copy()
     if st.session_state.get("sb_bdlgruppe"):
@@ -120,8 +121,9 @@ def run_app():
         val = st.session_state.get(sb_key, "")
         if val != "":
             filters[filter_key] = val
-          
-    df = load_geo_kpi("sale", adm_div)
+
+    kpi_file_name = f"sale_kpi_{adm_div}.parquet" 
+    df = load_parquet_data(kpi_file_name)
     filtered_df = df.copy()
         
     if to_exclude:
@@ -132,6 +134,12 @@ def run_app():
             filtered_df = filtered_df[filtered_df[col] == val]
             
     filtered_df = filtered_df[filtered_df['n_ads'] >= min_ads_threshold]
+    
+    load_ts_file_name = f"sale_max_sys_load_ts.parquet"
+    load_ts_df = load_parquet_data(load_ts_file_name)
+    max_load_ts = load_ts_df['max_sys_load_ts'].iloc[0]
+    max_load_ts = max_load_ts.strftime("%Y-%m-%d %H:%M")
+    load_ts_placeholder.caption(f"🔄 Last data refresh: {max_load_ts}")
     
     total_ads = df['n_ads'].sum()
     total_ads_filtered = filtered_df['n_ads'].sum()

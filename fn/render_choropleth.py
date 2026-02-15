@@ -1,7 +1,7 @@
 import config
 import json
 import plotly.express as px
-from fn.load_location_metadata import load_location_metadata
+from fn.load_json_data import load_json_data
 
 def render_choropleth(df,
                       adm_div:str,
@@ -10,7 +10,7 @@ def render_choropleth(df,
                       filters:dict = {},
                       simplified:str = "95"
                       ):
-    with open(f"{config.base_path}/data/{adm_div}_{simplified}_geo.json") as f:
+    with open(f"{config.BASE_PATH}/data/{adm_div}_{simplified}_geo.json") as f:
         geo = json.load(f)
     
     geo_priority = ["bezirk", "region", "bundesland", "bundeslandgruppe"]    
@@ -39,7 +39,7 @@ def render_choropleth(df,
         center = {"lat": 47.6939, "lon": 13.3545}
         zoom = 6.8
     else:
-        meta_lookup = load_location_metadata(focus_level)
+        meta_lookup = load_json_data(f"{focus_level}_centroids")
         active_meta = [
             meta_lookup[str(n)] 
             for n in df[f"{focus_level}_iso"].unique() 

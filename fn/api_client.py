@@ -13,11 +13,20 @@ def api_client(
         driver, 
         real_estate_search_type:str,
         load_type:str = "full",
-        base_url:str = config.listings_platform_url,
+        base_url:str = config.LISTINGS_PLATFORM_URL,
         wait_time:int = 5,
         n_objects_per_page:int = 200
     ):
     
+    real_estate_types_mapping = {
+        "sale_apartment": "Wohnung kaufen",
+        "sale_house": "Haus kaufen",
+        "rent_apartment": "Wohnung mieten",
+        "rent_house": "Haus mieten"
+    }
+
+    real_estate_search_term = real_estate_types_mapping[real_estate_search_type]
+
     driver.get(base_url)
     print("Browser opened")
     
@@ -31,7 +40,7 @@ def api_client(
         print("No cookie dialog")
         
     dropdown = Select(driver.find_element(By.ID, "searchid-select"))
-    dropdown.select_by_visible_text(real_estate_search_type)
+    dropdown.select_by_visible_text(real_estate_search_term)
     
     if load_type == "full":
         time.sleep(wait_time)
@@ -48,7 +57,7 @@ def api_client(
     wait.until(
         EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-testid='search-submit-button']"))
     ).click()
-    print(f"Selecting search: {real_estate_search_type}")
+    print(f"Selecting search: {real_estate_search_term}")
     
     time.sleep(wait_time)
     
@@ -58,8 +67,8 @@ def api_client(
     session.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Accept": "application/json",
-        "Referer": config.listings_platform_url,
-        "x-wh-client": config.x_wh_client
+        "Referer": config.LISTINGS_PLATFORM_URL,
+        "x-wh-client": config.X_WH_CLIENT
     })
     
     session.cookies.update(cookies)
@@ -72,7 +81,7 @@ def api_client(
             for req in driver.requests:
                 if (
                     req.response
-                    and config.api_search_pattern in req.url
+                    and config.API_SEARCH_PATTERN in req.url
                     and "sfId=" in req.url
                 ):
                     base_api_url = req.url
