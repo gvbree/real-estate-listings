@@ -1,4 +1,4 @@
-from etl.web_to_db import execute
+from etl.db_to_parquet import execute
 
-if __name__ == "__main__":       
-    execute("sale_house", load_type="preview")
+if __name__ == "__main__":     
+    execute()

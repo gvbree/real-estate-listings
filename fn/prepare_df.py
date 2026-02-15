@@ -4,6 +4,7 @@ import pandas as pd
 def prepare_df(engine, conn, df, table):
     schema = "ldl"
     
+    df = df.drop_duplicates()
     df.columns = (
         df.columns
           .str.strip()
