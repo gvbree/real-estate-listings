@@ -48,6 +48,12 @@ def run_app():
         ["price_per_sqm_median", "price_median", "sqm_median", "dom_avg", "n_ads", "n_ads_per_10000p"],
         key="sb_kpi"
     )
+
+    ad_type = st.sidebar.selectbox(
+        "Ad Type", 
+        ["Sale", "Rent"],
+        key="sb_ad_type"
+    ).lower()
     
     geo_df = load_csv_data("geo")
     
@@ -93,13 +99,6 @@ def run_app():
                      disabled=(adm_div == "bundesland"),
                      help="Cannot filter on a location level smaller than the aggregation level.")
         
-    with st.sidebar.expander("🚫 Exclude Bezirke", expanded=False):
-        to_exclude = st.multiselect(
-            "Select Bezirke to hide:",
-            options=[v for v in bezirk_values if v != "" and v != "Wien"],
-            help="Hidden Bezirke will not be used for color scaling or shown on the map."
-        )
-        
     with st.sidebar.expander("🛠️ Advanced Settings", expanded=False):
         min_ads_threshold = st.number_input(
             "Min. Ads per Location",
@@ -122,12 +121,9 @@ def run_app():
         if val != "":
             filters[filter_key] = val
 
-    kpi_file_name = f"sale_kpi_{adm_div}.parquet" 
+    kpi_file_name = f"{ad_type}_kpi_{adm_div}.parquet" 
     df = load_parquet_data(kpi_file_name)
     filtered_df = df.copy()
-        
-    if to_exclude:
-        filtered_df = filtered_df[~filtered_df[adm_div].isin(to_exclude)]
     
     for col, val in filters.items():
         if val != "":
@@ -135,7 +131,7 @@ def run_app():
             
     filtered_df = filtered_df[filtered_df['n_ads'] >= min_ads_threshold]
     
-    load_ts_file_name = f"sale_max_sys_load_ts.parquet"
+    load_ts_file_name = f"{ad_type}_max_sys_load_ts.parquet"
     load_ts_df = load_parquet_data(load_ts_file_name)
     max_load_ts = load_ts_df['max_sys_load_ts'].iloc[0]
     max_load_ts = max_load_ts.strftime("%Y-%m-%d %H:%M")
@@ -154,6 +150,7 @@ def run_app():
             filtered_df,
             adm_div = adm_div, 
             kpi_name = kpi,
+            ad_type = ad_type,
             filters = filters
         )
     

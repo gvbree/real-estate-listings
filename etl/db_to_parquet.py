@@ -4,11 +4,14 @@ from fn.build_geo_kpi_query import build_geo_kpi_query
 from fn.query_to_df import query_to_df
 from fn.df_to_supabase import df_to_supabase
 
-def execute():
+def execute(
+        ad_types: list = ["sale", "rent"]
+    ):
+
     supabase = create_supabase_driver()
     engine, conn = postgres_connect()
     
-    for ad_type in ["sale"]:
+    for ad_type in ad_types:
         for adm_div in ["bundesland", "bezirk", "gemeinde"]:
             file_name = f"{ad_type}_kpi_{adm_div}.parquet"
 

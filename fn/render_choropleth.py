@@ -6,6 +6,7 @@ from fn.load_json_data import load_json_data
 def render_choropleth(df,
                       adm_div:str,
                       kpi_name:str,
+                      ad_type:str,
                       html_export:bool = False,
                       filters:dict = {},
                       simplified:str = "95"
@@ -69,23 +70,34 @@ def render_choropleth(df,
     print(f"\nRendering Choropleth using {adm_div}_{simplified}_geo.json, filtered on {filter_level} = {filter_value}.")
     print(f"Center: {center}, zoom: {zoom}. Calculated using the {focus_level} level.")        
     
-    kpi_configs = {
-        "price_per_sqm_median": {
-            "color_range": [2500, 7500]
+    KPI_CONFIG = {
+        "sale": {
+            "price_per_sqm_median": {
+                "color_range": [2500, 7500]
+            },
+            "price_median": {
+                "color_range": [200000, 600000]
+            },
+            "sqm_median": {
+                "color_range": [60, 140]
+            },
+            "default": {
+                "color_range": None
+            }
         },
-        "price_median": {
-            "color_range": [200000, 600000]
-        },
-        "sqm_median": {
-            "color_range": [60, 140]
+        "rent": {
+            "default": {
+                "color_range": None
+            }
         },
         "default": {
             "color_range": None
         }
     }
     
-    kpi_config = kpi_configs.get(kpi_name, kpi_configs["default"])
-    color_range = kpi_config["color_range"]
+    kpi_cfg = KPI_CONFIG.get(ad_type, KPI_CONFIG["default"])
+    kpi_cfg = kpi_cfg.get(kpi_name, kpi_cfg["default"])
+    color_range = kpi_cfg["color_range"]
         
     fig = px.choropleth_mapbox(
         df,
