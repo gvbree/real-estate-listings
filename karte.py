@@ -1,4 +1,6 @@
 import streamlit as st
+from fn.init_page import init_page
+from fn.display_metadata import display_metadata
 from fn.load_csv_data import load_csv_data
 from fn.load_parquet_data import load_parquet_data
 from fn.render_choropleth import render_choropleth
@@ -18,10 +20,7 @@ def sync_geo_filters(changed_key):
         st.session_state.sb_bezirk = ""
 
 def run_app():
-    st.set_page_config(
-        page_title="Real Estate Austria",
-        layout="wide"
-    )
+    placeholders = init_page()
     
     st.markdown("""
         <style>
@@ -32,11 +31,7 @@ def run_app():
                 footer {visibility: hidden;}
         </style>
         """, unsafe_allow_html=True)
-        
-    load_ts_placeholder = st.sidebar.empty()
-    coverage_placeholder = st.sidebar.empty()
-    st.sidebar.header("Configuration")
-
+    
     adm_div = st.sidebar.selectbox(
         "Administrative level", 
         ["Bundesland", "Bezirk", "Gemeinde"],
@@ -74,7 +69,7 @@ def run_app():
     region_values = get_values(df_region, "region")
     bezirk_values = get_values(df_bezirk, "bezirk")
     
-    with st.sidebar.expander("🌍 Geographic Filters", expanded=True):
+    with st.sidebar.expander("🌍 Geographic Filters", expanded=False):
         st.selectbox("Bundeslandgruppe", 
                      bdlgruppe_values, 
                      key="sb_bdlgruppe", 
@@ -131,17 +126,8 @@ def run_app():
             
     filtered_df = filtered_df[filtered_df['n_ads'] >= min_ads_threshold]
     
-    load_ts_file_name = f"{ad_type}_max_sys_load_ts.parquet"
-    load_ts_df = load_parquet_data(load_ts_file_name)
-    max_load_ts = load_ts_df['max_sys_load_ts'].iloc[0]
-    max_load_ts = max_load_ts.strftime("%Y-%m-%d %H:%M")
-    load_ts_placeholder.caption(f"🔄 Last data refresh: {max_load_ts}")
-    
-    total_ads = df['n_ads'].sum()
-    total_ads_filtered = filtered_df['n_ads'].sum()
-    coverage_pct = (total_ads_filtered / total_ads) * 100 if total_ads > 0 else 0
-    coverage_placeholder.caption(f"📊 Showing {total_ads_filtered:,.0f} ads ({coverage_pct:.1f}% of selection)")
-    
+    display_metadata(placeholders, ad_type, df, filtered_df)
+
     if filtered_df.empty:
         st.markdown("<br><br>", unsafe_allow_html=True) 
         st.warning(f"No locations found with at least {min_ads_threshold} ads. Try lowering the threshold.")
