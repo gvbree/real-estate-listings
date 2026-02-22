@@ -1,22 +1,26 @@
 import plotly.express as px
-from fn.app_get_color_map import get_color_map
+from fn.get_color_map import get_color_map
 
-def render_ecdf(df, ad_type):
+def render_violin(df, ad_type):
     color_map = get_color_map(df)
     range = [0, 1000000] if ad_type == "sale" else [0, 3000]
 
-    fig = px.ecdf(
+    fig = px.violin(
         df, 
-        x="price", 
+        x="Group", 
+        y="price", 
         color="Group",
-        range_x=range,
+        range_y=range,
+        box=True,
+        points=None,
         color_discrete_map=color_map
     )
+
     fig.update_layout(
-        xaxis_title="Price in €",
-        yaxis_title="Share of Properties (Cumulative)",
+        yaxis_title="Price in €",
+        xaxis_title=None,
         margin=dict(t=10, b=10, l=10, r=10),
-        legend_title=None,
+        showlegend=False,
         height=700
     )
 

@@ -1,8 +1,7 @@
 from fn.query_to_df import query_to_df
 import config
 
-def execute():
-    
+def execute() -> None:
     query = """
     select bundeslandgruppe, bundesland, region, bezirk
     from ldl.dim_bezirk_region br

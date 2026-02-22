@@ -1,10 +1,10 @@
 import streamlit as st
-from fn.app_init_page import init_page
-from fn.app_get_aggregated_data import get_aggregated_data
+from fn.init_page import init_page
+from fn.get_aggregated_data import get_aggregated_data
 from fn.get_values import get_values
-from fn.app_display_metadata import display_metadata
+from fn.get_metadata import display_metadata
 from fn.load_csv_data import load_csv_data
-from fn.app_render_choropleth import render_choropleth
+from fn.render_choropleth import render_choropleth
 
 def sync_geo_filters(changed_key):
     if changed_key == "sb_bdlgruppe":

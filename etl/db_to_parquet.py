@@ -3,10 +3,7 @@ from fn.create_supabase_driver import create_supabase_driver
 from fn.query_to_df import query_to_df
 from fn.df_to_supabase import df_to_supabase
 
-def execute(
-        ad_types: list = ["sale", "rent"]
-    ):
-
+def execute(ad_types: list = ["sale", "rent"]) -> None:
     supabase = create_supabase_driver()
     engine, conn = postgres_connect()
     
@@ -17,7 +14,7 @@ def execute(
         FROM ldl.{ad_type}
         """
         df = query_to_df(conn, query)
-        df_to_supabase(supabase, df, ad_type)
+        df_to_supabase(supabase, df, file_name = ad_type)
 
         # load_ts
         query = f"""
@@ -25,6 +22,6 @@ def execute(
         FROM ldl.{ad_type}
         """
         df = query_to_df(conn, query)
-        df_to_supabase(supabase, df, f"{ad_type}_load_ts")
+        df_to_supabase(supabase, df, file_name = f"{ad_type}_load_ts")
 
     postgres_disconnect(engine, conn)

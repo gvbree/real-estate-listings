@@ -3,12 +3,11 @@ from fn.create_chrome_driver import create_chrome_driver
 from fn.api_client import api_client
 from fn.postgres_connection import postgres_connect, postgres_disconnect
 from fn.insert_sql import insert_sql
-from fn.prepare_df import prepare_df
 
 def execute(
         load_type:str = "preview",
         real_estate_search_types:list = ["sale_apartment", "sale_house"]
-        ) -> None:
+    ) -> None:
 
     engine, conn = postgres_connect()
 

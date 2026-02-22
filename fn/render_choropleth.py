@@ -3,14 +3,15 @@ import json
 import plotly.express as px
 from fn.load_json_data import load_json_data
 
-def render_choropleth(df,
-                      adm_div:str,
-                      kpi_name:str,
-                      ad_type:str,
-                      html_export:bool = False,
-                      filters:dict = {},
-                      simplified:str = "95"
-                      ):
+def render_choropleth(
+        df,
+        adm_div:str,
+        kpi_name:str,
+        ad_type:str,
+        filters:dict = {},
+        simplified:str = "95"
+    ):
+    
     with open(f"{config.BASE_PATH}/data/{adm_div}_{simplified}_geo.json") as f:
         geo = json.load(f)
     
@@ -23,11 +24,6 @@ def render_choropleth(df,
             filter_level = level
             filter_value = filters[level]
             break
-   
-    if filters:
-        subtitle_text = "Filters: " + " | ".join([f"{k} = {v}" for k, v in filters.items()])
-    else:
-        subtitle_text = ""
 
     if filter_level == "bundeslandgruppe" or filter_level == "bundesland":
         focus_level = "bundesland"
@@ -80,14 +76,6 @@ def render_choropleth(df,
             },
             "sqm_median": {
                 "color_range": [60, 140]
-            },
-            "default": {
-                "color_range": None
-            }
-        },
-        "rent": {
-            "default": {
-                "color_range": None
             }
         },
         "default": {
@@ -96,7 +84,7 @@ def render_choropleth(df,
     }
     
     kpi_cfg = KPI_CONFIG.get(ad_type, KPI_CONFIG["default"])
-    kpi_cfg = kpi_cfg.get(kpi_name, kpi_cfg["default"])
+    kpi_cfg = kpi_cfg.get(kpi_name, KPI_CONFIG["default"])
     color_range = kpi_cfg["color_range"]
         
     fig = px.choropleth_mapbox(
@@ -130,12 +118,5 @@ def render_choropleth(df,
         'modeBarButtonsToRemove': ['lasso2d', 'select2d', 'pan2d'],
         'displaylogo': True
     }
-    
-    if html_export:
-        fig.write_html(
-            "austria_choropleth.html", 
-            auto_open=True, 
-            config=plot_config
-        )
         
     return fig

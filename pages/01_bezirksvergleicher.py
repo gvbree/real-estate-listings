@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-from fn.app_init_page import init_page
+from fn.init_page import init_page
 from fn.get_values import get_values
 from fn.load_parquet_data import load_parquet_data
-from fn.app_display_metadata import display_metadata
-from fn.app_render_ecdf import render_ecdf
-from fn.app_render_violin import render_violin
+from fn.get_metadata import display_metadata
+from fn.render_ecdf import render_ecdf
+from fn.render_violin import render_violin
 import plotly.express as px
 
 init_page()
