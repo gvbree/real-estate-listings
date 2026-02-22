@@ -6,11 +6,7 @@ from fn.load_csv_data import load_csv_data
 @st.cache_data
 def get_aggregated_data(ad_type, adm_div):
     id_col = f"{adm_div}_iso"
-
     df = load_parquet_data(ad_type)
-
-    df['price_per_sqm'] = df['price'] / df['estate_size_living_area']
-    df['days_on_market'] = (df['sys_load_ts'] - df['published_string']).dt.days
     
     agg_dict = {
         'price_per_sqm_median': ('price_per_sqm', 'median'),
