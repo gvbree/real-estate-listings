@@ -12,6 +12,7 @@ def execute(
     engine, conn = postgres_connect()
     
     for ad_type in ad_types:
+        # Geo KPIs
         for adm_div in ["bundesland", "bezirk", "gemeinde"]:
             file_name = f"{ad_type}_kpi_{adm_div}.parquet"
 
@@ -19,6 +20,17 @@ def execute(
             df = query_to_df(conn, query)
             df_to_supabase(supabase, df, file_name)
 
+        # Full data
+        file_name = f"{ad_type}_full.parquet"
+
+        query = f"""
+        SELECT *
+        FROM ldl.{ad_type}
+        """
+        df = query_to_df(conn, query)
+        df_to_supabase(supabase, df, file_name)
+
+        # Max sys_load_ts
         file_name = f"{ad_type}_max_sys_load_ts.parquet"
 
         query = f"""

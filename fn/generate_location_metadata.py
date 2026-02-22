@@ -2,7 +2,7 @@ import json
 import config
 from shapely.geometry import shape
      
-def generate_location_metadata_json():
+def generate_location_metadata():
     for adm_div in ["bundesland", "gemeinde", "bezirk"]:
         output_json = f"{adm_div}_centroids.json"
         

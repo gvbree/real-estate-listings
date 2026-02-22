@@ -120,14 +120,10 @@ def render_choropleth(df,
     )
 
     fig.update_layout(
-        title={
-            'text': f"<b>{kpi_name} per {adm_div.capitalize()}</b><br><span style='font-size:14px; color:gray'>{subtitle_text}</span>",
-            'yanchor': 'top'
-        },
         autosize=True,
-        width=1700,
-        height=800,
-        margin={"r":0, "t":80, "l":0, "b":0}
+        width=1600,
+        height=700,
+        margin={"r":0, "t":0, "l":0, "b":0}
     )
     
     plot_config = {
