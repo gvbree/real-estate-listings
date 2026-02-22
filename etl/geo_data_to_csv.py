@@ -1,7 +1,7 @@
 from fn.query_to_df import query_to_df
 import config
 
-def geo_data_to_csv():
+def execute():
     
     query = """
     select bundeslandgruppe, bundesland, region, bezirk

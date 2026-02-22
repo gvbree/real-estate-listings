@@ -1,0 +1,2280 @@
+level,iso,name,population
+staat,AT,Österreich,9197213
+bundeslandgruppe,AT1,"Ostösterreich",4057593
+bundeslandgruppe,AT2,"Südösterreich",1841811
+bundeslandgruppe,AT3,"Westösterreich",3297809
+region,AT111,"Mittelburgenland",37744
+region,AT112,"Nordburgenland",165805
+region,AT113,"Südburgenland",98241
+region,AT121,"Mostviertel-Eisenwurzen",250792
+region,AT122,"Niederösterreich-Süd",268098
+region,AT123,"Sankt Pölten",163040
+region,AT124,"Waldviertel",215137
+region,AT125,"Weinviertel",127215
+region,AT126,"Wiener Umland/Nordteil",346557
+region,AT127,"Wiener Umland/Südteil",356675
+region,AT130,"Wien",2028289
+region,AT211,"Klagenfurt-Villach",298721
+region,AT212,"Oberkärnten",123597
+region,AT213,"Unterkärnten",147777
+region,AT221,"Graz",469968
+region,AT222,"Liezen",79579
+region,AT223,"Östliche Obersteiermark",156148
+region,AT224,"Oststeiermark",267391
+region,AT225,"West- und Südsteiermark",200216
+region,AT226,"Westliche Obersteiermark",98414
+region,AT311,"Innviertel",299331
+region,AT312,"Linz-Wels",617181
+region,AT313,"Mühlviertel",215016
+region,AT314,"Steyr-Kirchdorf",158848
+region,AT315,"Traunviertel",245143
+region,AT321,"Lungau",20460
+region,AT322,"Pinzgau-Pongau",173404
+region,AT323,"Salzburg und Umgebung",378982
+region,AT331,"Außerfern",33946
+region,AT332,"Innsbruck",319242
+region,AT333,"Osttirol",49011
+region,AT334,"Tiroler Oberland",107718
+region,AT335,"Tiroler Unterland",267743
+region,AT341,"Bludenz-Bregenzer Wald",95029
+region,AT342,"Rheintal-Bodenseegebiet",316755
+bundesland,1,Burgenland,301790
+bundesland,2,Kärnten,570095
+bundesland,3,Niederösterreich,1727514
+bundesland,4,Oberösterreich,1535519
+bundesland,5,Salzburg,572846
+bundesland,6,Steiermark,1271716
+bundesland,7,Tirol,777660
+bundesland,8,Vorarlberg,411784
+bundesland,9,Wien,2028289
+bezirk,101,"Eisenstadt (Stadt)",16118
+bezirk,102,"Rust (Stadt)",1933
+bezirk,103,"Eisenstadt-Umgebung",44755
+bezirk,104,"Güssing",25852
+bezirk,105,"Jennersdorf",17157
+bezirk,106,"Mattersburg",41154
+bezirk,107,"Neusiedl am See",61845
+bezirk,108,"Oberpullendorf",37744
+bezirk,109,"Oberwart",55232
+bezirk,201,"Klagenfurt (Stadt)",105256
+bezirk,202,"Villach (Stadt)",65749
+bezirk,203,"Hermagor",17941
+bezirk,204,"Klagenfurt Land",62060
+bezirk,205,"Sankt Veit an der Glan",53950
+bezirk,206,"Spittal an der Drau",75545
+bezirk,207,"Villach Land",65656
+bezirk,208,"Völkermarkt",41981
+bezirk,209,"Wolfsberg",51846
+bezirk,210,"Feldkirchen",30111
+bezirk,301,"Krems an der Donau (Stadt)",25473
+bezirk,302,"Sankt Pölten (Stadt)",59767
+bezirk,303,"Waidhofen an der Ybbs (Stadt)",11062
+bezirk,304,"Wiener Neustadt (Stadt)",49156
+bezirk,305,"Amstetten",118403
+bezirk,306,"Baden",150216
+bezirk,307,"Bruck an der Leitha",110038
+bezirk,308,"Gänserndorf",109392
+bezirk,309,"Gmünd",35516
+bezirk,310,"Hollabrunn",52035
+bezirk,311,"Horn",30847
+bezirk,312,"Korneuburg",94113
+bezirk,313,"Krems (Land)",56423
+bezirk,314,"Lilienfeld",25135
+bezirk,315,"Melk",79351
+bezirk,316,"Mistelbach",76986
+bezirk,317,"Mödling",121525
+bezirk,318,"Neunkirchen",87500
+bezirk,319,"Sankt Pölten (Land)",134755
+bezirk,320,"Scheibbs",41976
+bezirk,321,"Tulln",109764
+bezirk,322,"Waidhofen an der Thaya",25350
+bezirk,323,"Wiener Neustadt (Land)",81203
+bezirk,325,"Zwettl",41528
+bezirk,401,"Stadt Linz",213557
+bezirk,402,"Stadt Steyr",38036
+bezirk,403,"Stadt Wels",65482
+bezirk,404,"Braunau",110571
+bezirk,405,"Eferding",33884
+bezirk,406,"Freistadt",68326
+bezirk,407,"Gmunden",103155
+bezirk,408,"Grieskirchen",66750
+bezirk,409,"Kirchdorf",58199
+bezirk,410,"Linz-Land",157151
+bezirk,411,"Perg",70985
+bezirk,412,"Ried",63577
+bezirk,413,"Rohrbach",57364
+bezirk,414,"Schärding",58433
+bezirk,415,"Steyr-Land",62613
+bezirk,416,"Urfahr-Umgebung",88338
+bezirk,417,"Vöcklabruck",141988
+bezirk,418,"Wels-Land",77110
+bezirk,501,"Salzburg (Stadt)",157659
+bezirk,502,"Hallein",62115
+bezirk,503,"Salzburg-Umgebung",159208
+bezirk,504,"Sankt Johann im Pongau",83310
+bezirk,505,"Tamsweg",20460
+bezirk,506,"Zell am See",90094
+bezirk,601,"Graz (Stadt)",305314
+bezirk,603,"Deutschlandsberg",61065
+bezirk,606,"Graz-Umgebung",164654
+bezirk,610,"Leibnitz",87979
+bezirk,611,"Leoben",59071
+bezirk,612,"Liezen",79579
+bezirk,614,"Murau",26898
+bezirk,616,"Voitsberg",51172
+bezirk,617,"Weiz",92651
+bezirk,620,"Murtal",71516
+bezirk,621,"Bruck-Mürzzuschlag",97077
+bezirk,622,"Hartberg-Fürstenfeld",91082
+bezirk,623,"Südoststeiermark",83658
+bezirk,701,"Innsbruck-Stadt",132499
+bezirk,702,"Imst",62688
+bezirk,703,"Innsbruck-Land",186743
+bezirk,704,"Kitzbühel",66067
+bezirk,705,"Kufstein",114229
+bezirk,706,"Landeck",45030
+bezirk,707,"Lienz",49011
+bezirk,708,"Reutte",33946
+bezirk,709,"Schwaz",87447
+bezirk,801,"Bludenz",65948
+bezirk,802,"Bregenz",138030
+bezirk,803,"Dornbirn",94143
+bezirk,804,"Feldkirch",113663
+bezirk,901,"Wien 1., Innere Stadt",16281
+bezirk,902,"Wien 2., Leopoldstadt",112675
+bezirk,903,"Wien 3., Landstraße",98881
+bezirk,904,"Wien 4., Wieden",33444
+bezirk,905,"Wien 5., Margareten",54581
+bezirk,906,"Wien 6., Mariahilf",31083
+bezirk,907,"Wien 7., Neubau",31330
+bezirk,908,"Wien 8., Josefstadt",24242
+bezirk,909,"Wien 9., Alsergrund",41664
+bezirk,910,"Wien 10., Favoriten",223190
+bezirk,911,"Wien 11., Simmering",112149
+bezirk,912,"Wien 12., Meidling",102393
+bezirk,913,"Wien 13., Hietzing",56108
+bezirk,914,"Wien 14., Penzing",99049
+bezirk,915,"Wien 15., Rudolfsheim-Fünfhaus",75902
+bezirk,916,"Wien 16., Ottakring",102727
+bezirk,917,"Wien 17., Hernals",56767
+bezirk,918,"Wien 18., Währing",51376
+bezirk,919,"Wien 19., Döbling",76074
+bezirk,920,"Wien 20., Brigittenau",86950
+bezirk,921,"Wien 21., Floridsdorf",189551
+bezirk,922,"Wien 22., Donaustadt",228158
+bezirk,923,"Wien 23., Liesing",123714
+gemeinde,10101,"Eisenstadt",16118
+gemeinde,10201,"Rust",1933
+gemeinde,10301,"Breitenbrunn am Neusiedler See",1943
+gemeinde,10302,"Donnerskirchen",1881
+gemeinde,10303,"Großhöflein",2078
+gemeinde,10304,"Hornstein",3323
+gemeinde,10305,"Klingenbach",1203
+gemeinde,10306,"Leithaprodersdorf",1258
+gemeinde,10307,"Mörbisch am See",2181
+gemeinde,10308,"Müllendorf",1521
+gemeinde,10309,"Neufeld an der Leitha",3594
+gemeinde,10310,"Oggau am Neusiedler See",1691
+gemeinde,10311,"Oslip",1304
+gemeinde,10312,"Purbach am Neusiedler See",3053
+gemeinde,10313,"Sankt Margarethen im Burgenland",2720
+gemeinde,10314,"Schützen am Gebirge",1448
+gemeinde,10315,"Siegendorf",3228
+gemeinde,10316,"Steinbrunn",2996
+gemeinde,10317,"Trausdorf an der Wulka",2143
+gemeinde,10318,"Wimpassing an der Leitha",1724
+gemeinde,10319,"Wulkaprodersdorf",1938
+gemeinde,10320,"Loretto",520
+gemeinde,10321,"Stotzing",821
+gemeinde,10322,"Zillingtal",1045
+gemeinde,10323,"Zagersdorf",1142
+gemeinde,10401,"Bocksdorf",790
+gemeinde,10402,"Burgauberg-Neudauberg",1434
+gemeinde,10403,"Eberau",910
+gemeinde,10404,"Gerersdorf-Sulz",1028
+gemeinde,10405,"Güssing",3520
+gemeinde,10406,"Güttenbach",843
+gemeinde,10407,"Heiligenbrunn",710
+gemeinde,10408,"Kukmirn",1985
+gemeinde,10409,"Neuberg im Burgenland",943
+gemeinde,10410,"Neustift bei Güssing",444
+gemeinde,10411,"Olbendorf",1470
+gemeinde,10412,"Ollersdorf im Burgenland",955
+gemeinde,10413,"Sankt Michael im Burgenland",1007
+gemeinde,10414,"Stegersbach",2741
+gemeinde,10415,"Stinatz",1193
+gemeinde,10416,"Strem",934
+gemeinde,10417,"Tobaj",1369
+gemeinde,10418,"Hackerberg",383
+gemeinde,10419,"Wörterberg",538
+gemeinde,10420,"Großmürbisch",232
+gemeinde,10421,"Inzenhof",336
+gemeinde,10422,"Kleinmürbisch",227
+gemeinde,10423,"Tschanigraben",64
+gemeinde,10424,"Heugraben",233
+gemeinde,10425,"Rohr im Burgenland",369
+gemeinde,10426,"Bildein",352
+gemeinde,10427,"Rauchwart",478
+gemeinde,10428,"Moschendorf",364
+gemeinde,10501,"Deutsch Kaltenbrunn",1730
+gemeinde,10502,"Eltendorf",900
+gemeinde,10503,"Heiligenkreuz im Lafnitztal",1242
+gemeinde,10504,"Jennersdorf",4159
+gemeinde,10505,"Minihof-Liebau",1041
+gemeinde,10506,"Mogersdorf",1153
+gemeinde,10507,"Neuhaus am Klausenbach",879
+gemeinde,10508,"Rudersdorf",2241
+gemeinde,10509,"Sankt Martin an der Raab",1941
+gemeinde,10510,"Weichselbaum",712
+gemeinde,10511,"Königsdorf",784
+gemeinde,10512,"Mühlgraben",375
+gemeinde,10601,"Draßburg",1233
+gemeinde,10602,"Forchtenstein",2800
+gemeinde,10603,"Hirm",1103
+gemeinde,10604,"Loipersbach im Burgenland",1214
+gemeinde,10605,"Marz",2074
+gemeinde,10606,"Mattersburg",7554
+gemeinde,10607,"Neudörfl",5015
+gemeinde,10608,"Pöttelsdorf",754
+gemeinde,10609,"Pöttsching",3068
+gemeinde,10610,"Rohrbach bei Mattersburg",2684
+gemeinde,10611,"Bad Sauerbrunn",2355
+gemeinde,10612,"Schattendorf",2360
+gemeinde,10613,"Sieggraben",1253
+gemeinde,10614,"Sigleß",1183
+gemeinde,10615,"Wiesen",2792
+gemeinde,10616,"Antau",846
+gemeinde,10617,"Baumgarten",922
+gemeinde,10618,"Zemendorf-Stöttera",1320
+gemeinde,10619,"Krensdorf",624
+gemeinde,10701,"Andau",2266
+gemeinde,10702,"Apetlon",1749
+gemeinde,10703,"Bruckneudorf",3108
+gemeinde,10704,"Deutsch Jahrndorf",643
+gemeinde,10705,"Frauenkirchen",2963
+gemeinde,10706,"Gattendorf",1518
+gemeinde,10707,"Gols",3937
+gemeinde,10708,"Halbturn",1871
+gemeinde,10709,"Illmitz",2333
+gemeinde,10710,"Jois",1655
+gemeinde,10711,"Kittsee",3803
+gemeinde,10712,"Mönchhof",2191
+gemeinde,10713,"Neusiedl am See",8885
+gemeinde,10714,"Nickelsdorf",1843
+gemeinde,10715,"Pama",1284
+gemeinde,10716,"Pamhagen",1472
+gemeinde,10717,"Parndorf",5362
+gemeinde,10718,"Podersdorf am See",2146
+gemeinde,10719,"Sankt Andrä am Zicksee",1389
+gemeinde,10720,"Tadten",1142
+gemeinde,10721,"Wallern im Burgenland",1624
+gemeinde,10722,"Weiden am See",2597
+gemeinde,10723,"Winden am See",1384
+gemeinde,10724,"Zurndorf",2320
+gemeinde,10725,"Neudorf",857
+gemeinde,10726,"Potzneusiedl",679
+gemeinde,10727,"Edelstal",824
+gemeinde,10801,"Deutschkreutz",3140
+gemeinde,10802,"Draßmarkt",1381
+gemeinde,10803,"Frankenau-Unterpullendorf",1088
+gemeinde,10804,"Großwarasdorf",1362
+gemeinde,10805,"Horitschon",1807
+gemeinde,10806,"Kaisersdorf",595
+gemeinde,10807,"Kobersdorf",1878
+gemeinde,10808,"Lackenbach",1161
+gemeinde,10809,"Lockenhaus",2072
+gemeinde,10810,"Lutzmannsburg",842
+gemeinde,10811,"Mannersdorf an der Rabnitz",1783
+gemeinde,10812,"Markt Sankt Martin",1281
+gemeinde,10813,"Neckenmarkt",1675
+gemeinde,10814,"Neutal",1140
+gemeinde,10815,"Nikitsch",1389
+gemeinde,10816,"Oberpullendorf",3337
+gemeinde,10817,"Pilgersdorf",1569
+gemeinde,10818,"Piringsdorf",824
+gemeinde,10819,"Raiding",916
+gemeinde,10820,"Ritzing",911
+gemeinde,10821,"Steinberg-Dörfl",1308
+gemeinde,10822,"Stoob",1354
+gemeinde,10823,"Weppersdorf",1910
+gemeinde,10824,"Lackendorf",615
+gemeinde,10825,"Unterfrauenhaid",645
+gemeinde,10826,"Unterrabnitz-Schwendgraben",615
+gemeinde,10827,"Weingraben",348
+gemeinde,10828,"Oberloisdorf",798
+gemeinde,10901,"Bad Tatzmannsdorf",1658
+gemeinde,10902,"Bernstein",2159
+gemeinde,10903,"Deutsch Schützen-Eisenberg",1077
+gemeinde,10904,"Grafenschachen",1253
+gemeinde,10905,"Großpetersdorf",3595
+gemeinde,10906,"Hannersdorf",740
+gemeinde,10907,"Kemeten",1539
+gemeinde,10908,"Kohfidisch",1437
+gemeinde,10909,"Litzelsdorf",1151
+gemeinde,10910,"Loipersdorf-Kitzladen",1360
+gemeinde,10911,"Mariasdorf",1136
+gemeinde,10912,"Markt Allhau",2011
+gemeinde,10913,"Markt Neuhodis",643
+gemeinde,10914,"Mischendorf",1442
+gemeinde,10915,"Oberdorf im Burgenland",978
+gemeinde,10916,"Oberschützen",2472
+gemeinde,10917,"Oberwart",8060
+gemeinde,10918,"Pinkafeld",5890
+gemeinde,10919,"Rechnitz",3053
+gemeinde,10920,"Riedlingsdorf",1691
+gemeinde,10921,"Rotenturm an der Pinka",1447
+gemeinde,10922,"Schachendorf",743
+gemeinde,10923,"Stadtschlaining",2050
+gemeinde,10924,"Unterkohlstätten",970
+gemeinde,10925,"Unterwart",1013
+gemeinde,10926,"Weiden bei Rechnitz",786
+gemeinde,10927,"Wiesfleck",1205
+gemeinde,10928,"Wolfau",1516
+gemeinde,10929,"Neustift an der Lafnitz",823
+gemeinde,10930,"Jabing",720
+gemeinde,10931,"Badersdorf",286
+gemeinde,10932,"Schandorf",328
+gemeinde,20101,"Klagenfurt am Wörthersee",105256
+gemeinde,20201,"Villach",65749
+gemeinde,20302,"Dellach",1185
+gemeinde,20305,"Hermagor-Pressegger See",6905
+gemeinde,20306,"Kirchbach",2478
+gemeinde,20307,"Kötschach-Mauthen",3320
+gemeinde,20316,"Sankt Stefan im Gailtal",1551
+gemeinde,20320,"Gitschtal",1228
+gemeinde,20321,"Lesachtal",1274
+gemeinde,20402,"Ebenthal in Kärnten",8224
+gemeinde,20403,"Feistritz im Rosental",2502
+gemeinde,20405,"Ferlach",7513
+gemeinde,20409,"Grafenstein",3088
+gemeinde,20412,"Keutschach am See",2418
+gemeinde,20414,"Köttmannsdorf",3186
+gemeinde,20415,"Krumpendorf am Wörthersee",3579
+gemeinde,20416,"Ludmannsdorf",1812
+gemeinde,20417,"Maria Rain",2732
+gemeinde,20418,"Maria Saal",4024
+gemeinde,20419,"Maria Wörth",1661
+gemeinde,20421,"Moosburg",4667
+gemeinde,20424,"Pörtschach am Wörther See",3002
+gemeinde,20425,"Poggersdorf",3353
+gemeinde,20428,"Sankt Margareten im Rosental",1087
+gemeinde,20432,"Schiefling am Wörthersee",2683
+gemeinde,20435,"Techelsberg am Wörther See",2212
+gemeinde,20441,"Zell",587
+gemeinde,20442,"Magdalensberg",3730
+gemeinde,20501,"Althofen",4950
+gemeinde,20502,"Brückl",2734
+gemeinde,20503,"Deutsch-Griffen",822
+gemeinde,20504,"Eberstein",1227
+gemeinde,20505,"Friesach",4852
+gemeinde,20506,"Glödnitz",835
+gemeinde,20508,"Gurk",1178
+gemeinde,20509,"Guttaring",1498
+gemeinde,20511,"Hüttenberg",1274
+gemeinde,20512,"Kappel am Krappfeld",1936
+gemeinde,20513,"Klein Sankt Paul",1785
+gemeinde,20515,"Liebenfels",3416
+gemeinde,20518,"Metnitz",1810
+gemeinde,20519,"Micheldorf",959
+gemeinde,20520,"Mölbling",1314
+gemeinde,20523,"Sankt Georgen am Längsee",3600
+gemeinde,20527,"Sankt Veit an der Glan",12234
+gemeinde,20530,"Straßburg",1964
+gemeinde,20531,"Weitensfeld im Gurktal",1982
+gemeinde,20534,"Frauenstein",3580
+gemeinde,20601,"Bad Kleinkirchheim",1657
+gemeinde,20602,"Baldramsdorf",1839
+gemeinde,20603,"Berg im Drautal",1224
+gemeinde,20604,"Dellach im Drautal",1626
+gemeinde,20605,"Großkirchheim",1307
+gemeinde,20607,"Flattach",1121
+gemeinde,20608,"Gmünd in Kärnten",2554
+gemeinde,20609,"Greifenburg",1702
+gemeinde,20610,"Heiligenblut am Großglockner",959
+gemeinde,20611,"Irschen",1912
+gemeinde,20613,"Kleblach-Lind",1161
+gemeinde,20616,"Lendorf",1779
+gemeinde,20618,"Mallnitz",771
+gemeinde,20619,"Malta",1867
+gemeinde,20620,"Millstatt am See",3464
+gemeinde,20622,"Mörtschach",816
+gemeinde,20624,"Mühldorf",1022
+gemeinde,20625,"Oberdrauburg",1198
+gemeinde,20627,"Obervellach",2154
+gemeinde,20630,"Radenthein",5742
+gemeinde,20631,"Rangersdorf",1700
+gemeinde,20632,"Rennweg am Katschberg",1650
+gemeinde,20633,"Sachsenburg",1333
+gemeinde,20634,"Seeboden am Millstätter See",6706
+gemeinde,20635,"Spittal an der Drau",15341
+gemeinde,20636,"Stall",1493
+gemeinde,20637,"Steinfeld",1996
+gemeinde,20638,"Trebesing",1143
+gemeinde,20639,"Weißensee",759
+gemeinde,20640,"Winklern",1185
+gemeinde,20642,"Krems in Kärnten",1603
+gemeinde,20643,"Lurnfeld",2676
+gemeinde,20644,"Reißeck",2085
+gemeinde,20701,"Afritz am See",1480
+gemeinde,20702,"Arnoldstein",7157
+gemeinde,20703,"Arriach",1333
+gemeinde,20705,"Bad Bleiberg",2141
+gemeinde,20707,"Feistritz an der Gail",643
+gemeinde,20708,"Feld am See",1042
+gemeinde,20710,"Ferndorf",2013
+gemeinde,20711,"Finkenstein am Faaker See",9466
+gemeinde,20712,"Fresach",1239
+gemeinde,20713,"Hohenthurn",872
+gemeinde,20719,"Nötsch im Gailtal",2340
+gemeinde,20720,"Paternion",5778
+gemeinde,20721,"Rosegg",1910
+gemeinde,20722,"Sankt Jakob im Rosental",4357
+gemeinde,20723,"Stockenboi",1556
+gemeinde,20724,"Treffen am Ossiacher See",4563
+gemeinde,20725,"Velden am Wörther See",9183
+gemeinde,20726,"Weißenstein",2921
+gemeinde,20727,"Wernberg",5662
+gemeinde,20801,"Bleiburg",3983
+gemeinde,20802,"Diex",788
+gemeinde,20803,"Eberndorf",5989
+gemeinde,20804,"Eisenkappel-Vellach",2218
+gemeinde,20805,"Feistritz ob Bleiburg",2241
+gemeinde,20806,"Gallizien",1791
+gemeinde,20807,"Globasnitz",1576
+gemeinde,20808,"Griffen",3391
+gemeinde,20810,"Neuhaus",1020
+gemeinde,20812,"Ruden",1499
+gemeinde,20813,"Sankt Kanzian am Klopeiner See",4636
+gemeinde,20815,"Sittersdorf",1947
+gemeinde,20817,"Völkermarkt",10902
+gemeinde,20901,"Bad Sankt Leonhard im Lavanttal",4244
+gemeinde,20905,"Frantschach-Sankt Gertraud",2394
+gemeinde,20909,"Lavamünd",2757
+gemeinde,20911,"Preitenegg",891
+gemeinde,20912,"Reichenfels",1700
+gemeinde,20913,"Sankt Andrä",9840
+gemeinde,20914,"Sankt Georgen im Lavanttal",1915
+gemeinde,20918,"Sankt Paul im Lavanttal",3144
+gemeinde,20923,"Wolfsberg",24961
+gemeinde,21001,"Albeck",965
+gemeinde,21002,"Feldkirchen in Kärnten",14528
+gemeinde,21003,"Glanegg",1780
+gemeinde,21004,"Gnesau",1034
+gemeinde,21005,"Himmelberg",2329
+gemeinde,21006,"Ossiach",724
+gemeinde,21007,"Reichenau",1695
+gemeinde,21008,"Sankt Urban",1639
+gemeinde,21009,"Steindorf am Ossiacher See",3844
+gemeinde,21010,"Steuerberg",1573
+gemeinde,30101,"Krems an der Donau",25473
+gemeinde,30201,"Sankt Pölten",59767
+gemeinde,30301,"Waidhofen an der Ybbs",11062
+gemeinde,30401,"Wiener Neustadt",49156
+gemeinde,30501,"Allhartsberg",2218
+gemeinde,30502,"Amstetten",24008
+gemeinde,30503,"Ardagger",3604
+gemeinde,30504,"Aschbach-Markt",3796
+gemeinde,30506,"Behamberg",3444
+gemeinde,30507,"Biberbach",2348
+gemeinde,30508,"Ennsdorf",3303
+gemeinde,30509,"Ernsthofen",2315
+gemeinde,30510,"Ertl",1246
+gemeinde,30511,"Euratsfeld",2805
+gemeinde,30512,"Ferschnitz",1865
+gemeinde,30514,"Haag",5851
+gemeinde,30515,"Haidershofen",3721
+gemeinde,30516,"Hollenstein an der Ybbs",1685
+gemeinde,30517,"Kematen an der Ybbs",2698
+gemeinde,30520,"Neuhofen an der Ybbs",3086
+gemeinde,30521,"Neustadtl an der Donau",2167
+gemeinde,30522,"Oed-Oehling",2160
+gemeinde,30524,"Opponitz",880
+gemeinde,30526,"Sankt Georgen am Reith",529
+gemeinde,30527,"Sankt Georgen am Ybbsfelde",2807
+gemeinde,30529,"Sankt Pantaleon-Erla",2707
+gemeinde,30530,"Sankt Peter in der Au",5128
+gemeinde,30531,"Sankt Valentin",9356
+gemeinde,30532,"Seitenstetten",3355
+gemeinde,30533,"Sonntagberg",3661
+gemeinde,30534,"Strengberg",2215
+gemeinde,30536,"Viehdorf",1368
+gemeinde,30538,"Wallsee-Sindelburg",2225
+gemeinde,30539,"Weistrach",2455
+gemeinde,30541,"Winklarn",1861
+gemeinde,30542,"Wolfsbach",2239
+gemeinde,30543,"Ybbsitz",3364
+gemeinde,30544,"Zeillern",1933
+gemeinde,30601,"Alland",2680
+gemeinde,30602,"Altenmarkt an der Triesting",2154
+gemeinde,30603,"Bad Vöslau",12478
+gemeinde,30604,"Baden",25931
+gemeinde,30605,"Berndorf",8919
+gemeinde,30607,"Ebreichsdorf",12003
+gemeinde,30608,"Enzesfeld-Lindabrunn",4315
+gemeinde,30609,"Furth an der Triesting",866
+gemeinde,30612,"Günselsdorf",1734
+gemeinde,30613,"Heiligenkreuz",1597
+gemeinde,30614,"Hernstein",1571
+gemeinde,30615,"Hirtenberg",2614
+gemeinde,30616,"Klausen-Leopoldsdorf",1672
+gemeinde,30618,"Kottingbrunn",7451
+gemeinde,30620,"Leobersdorf",5344
+gemeinde,30621,"Mitterndorf an der Fischa",3125
+gemeinde,30623,"Oberwaltersdorf",5290
+gemeinde,30625,"Pfaffstätten",3502
+gemeinde,30626,"Pottendorf",7770
+gemeinde,30627,"Pottenstein",2983
+gemeinde,30629,"Reisenberg",1749
+gemeinde,30631,"Schönau an der Triesting",2141
+gemeinde,30633,"Seibersdorf",1614
+gemeinde,30635,"Sooß",1077
+gemeinde,30636,"Tattendorf",1456
+gemeinde,30637,"Teesdorf",1899
+gemeinde,30639,"Traiskirchen",18925
+gemeinde,30641,"Trumau",3724
+gemeinde,30645,"Weissenbach an der Triesting",1682
+gemeinde,30646,"Blumau-Neurißhof",1950
+gemeinde,30701,"Au am Leithaberge",950
+gemeinde,30702,"Bad Deutsch-Altenburg",1993
+gemeinde,30703,"Berg",974
+gemeinde,30704,"Bruck an der Leitha",8687
+gemeinde,30706,"Enzersdorf an der Fischa",3664
+gemeinde,30708,"Göttlesbrunn-Arbesthal",1489
+gemeinde,30709,"Götzendorf an der Leitha",2227
+gemeinde,30710,"Hainburg an der Donau",7038
+gemeinde,30711,"Haslau-Maria Ellend",2027
+gemeinde,30712,"Höflein",1232
+gemeinde,30713,"Hof am Leithaberge",1678
+gemeinde,30715,"Hundsheim",668
+gemeinde,30716,"Mannersdorf am Leithagebirge",4274
+gemeinde,30718,"Petronell-Carnuntum",1260
+gemeinde,30719,"Prellenkirchen",1705
+gemeinde,30721,"Rohrau",1666
+gemeinde,30722,"Scharndorf",1239
+gemeinde,30724,"Sommerein",2265
+gemeinde,30726,"Trautmannsdorf an der Leitha",2929
+gemeinde,30728,"Wolfsthal",1256
+gemeinde,30729,"Ebergassing",4372
+gemeinde,30730,"Fischamend",5736
+gemeinde,30731,"Gramatneusiedl",3700
+gemeinde,30732,"Himberg",8324
+gemeinde,30733,"Klein-Neusiedl",921
+gemeinde,30734,"Lanzendorf",1949
+gemeinde,30735,"Leopoldsdorf",5613
+gemeinde,30736,"Maria-Lanzendorf",2264
+gemeinde,30737,"Moosbrunn",1808
+gemeinde,30738,"Rauchenwarth",803
+gemeinde,30739,"Schwadorf",2405
+gemeinde,30740,"Schwechat",21243
+gemeinde,30741,"Zwölfaxing",1679
+gemeinde,30801,"Aderklaa",236
+gemeinde,30802,"Andlersdorf",159
+gemeinde,30803,"Angern an der March",3526
+gemeinde,30804,"Auersthal",2020
+gemeinde,30805,"Bad Pirawarth",1743
+gemeinde,30808,"Deutsch-Wagram",9257
+gemeinde,30810,"Drösing",1119
+gemeinde,30811,"Dürnkrut",2224
+gemeinde,30812,"Ebenthal",883
+gemeinde,30813,"Eckartsau",1370
+gemeinde,30814,"Engelhartstetten",2208
+gemeinde,30817,"Gänserndorf",12285
+gemeinde,30819,"Glinzendorf",360
+gemeinde,30821,"Groß-Enzersdorf",12088
+gemeinde,30822,"Großhofen",100
+gemeinde,30824,"Groß-Schweinbarth",1387
+gemeinde,30825,"Haringsee",1159
+gemeinde,30826,"Hauskirchen",1278
+gemeinde,30827,"Hohenau an der March",2746
+gemeinde,30828,"Hohenruppersdorf",962
+gemeinde,30829,"Jedenspeigen",1112
+gemeinde,30830,"Lassee",3010
+gemeinde,30831,"Leopoldsdorf im Marchfeld",3027
+gemeinde,30834,"Mannsdorf an der Donau",341
+gemeinde,30835,"Marchegg",3113
+gemeinde,30836,"Markgrafneusiedl",921
+gemeinde,30838,"Matzen-Raggendorf",3006
+gemeinde,30841,"Neusiedl an der Zaya",1207
+gemeinde,30842,"Obersiebenbrunn",1753
+gemeinde,30844,"Orth an der Donau",2235
+gemeinde,30845,"Palterndorf-Dobermannsdorf",1331
+gemeinde,30846,"Parbasdorf",177
+gemeinde,30848,"Prottes",1443
+gemeinde,30849,"Raasdorf",725
+gemeinde,30850,"Ringelsdorf-Niederabsdorf",1286
+gemeinde,30852,"Schönkirchen-Reyersdorf",2020
+gemeinde,30854,"Spannberg",984
+gemeinde,30856,"Strasshof an der Nordbahn",12202
+gemeinde,30857,"Sulz im Weinviertel",1257
+gemeinde,30858,"Untersiebenbrunn",1795
+gemeinde,30859,"Velm-Götzendorf",785
+gemeinde,30860,"Weikendorf",2068
+gemeinde,30863,"Zistersdorf",5487
+gemeinde,30865,"Weiden an der March",997
+gemeinde,30902,"Amaliendorf-Aalfang",1095
+gemeinde,30903,"Brand-Nagelberg",1427
+gemeinde,30904,"Eggern",662
+gemeinde,30906,"Eisgarn",702
+gemeinde,30908,"Gmünd",5140
+gemeinde,30909,"Großdietmanns",2157
+gemeinde,30910,"Bad Großpertholz",1279
+gemeinde,30912,"Großschönau",1206
+gemeinde,30913,"Moorbad Harbach",680
+gemeinde,30915,"Haugschlag",474
+gemeinde,30916,"Heidenreichstein",3755
+gemeinde,30917,"Hirschbach",573
+gemeinde,30920,"Hoheneich",1344
+gemeinde,30921,"Kirchberg am Walde",1254
+gemeinde,30925,"Litschau",2093
+gemeinde,30929,"Reingers",606
+gemeinde,30932,"Sankt Martin",1061
+gemeinde,30935,"Schrems",5272
+gemeinde,30939,"Unserfrau-Altweitra",997
+gemeinde,30940,"Waldenstein",1176
+gemeinde,30942,"Weitra",2563
+gemeinde,31001,"Alberndorf im Pulkautal",707
+gemeinde,31008,"Göllersdorf",3214
+gemeinde,31009,"Grabern",1732
+gemeinde,31014,"Guntersdorf",1157
+gemeinde,31015,"Hadres",1699
+gemeinde,31016,"Hardegg",1305
+gemeinde,31018,"Haugsdorf",1591
+gemeinde,31019,"Heldenberg",1478
+gemeinde,31021,"Hohenwarth-Mühlbach am Manhartsberg",1345
+gemeinde,31022,"Hollabrunn",12514
+gemeinde,31025,"Mailberg",560
+gemeinde,31026,"Maissau",1965
+gemeinde,31028,"Nappersdorf-Kammersdorf",1191
+gemeinde,31033,"Pernersdorf",1067
+gemeinde,31035,"Pulkau",1460
+gemeinde,31036,"Ravelsbach",1668
+gemeinde,31037,"Retz",4189
+gemeinde,31038,"Retzbach",995
+gemeinde,31041,"Schrattenthal",874
+gemeinde,31042,"Seefeld-Kadolz",940
+gemeinde,31043,"Sitzendorf an der Schmida",2205
+gemeinde,31051,"Wullersdorf",2441
+gemeinde,31052,"Zellerndorf",2389
+gemeinde,31053,"Ziersdorf",3349
+gemeinde,31101,"Altenburg",822
+gemeinde,31102,"Brunn an der Wild",862
+gemeinde,31103,"Burgschleinitz-Kühnring",1304
+gemeinde,31104,"Drosendorf-Zissersdorf",1134
+gemeinde,31105,"Eggenburg",3509
+gemeinde,31106,"Gars am Kamp",3473
+gemeinde,31107,"Geras",1253
+gemeinde,31109,"Horn",6492
+gemeinde,31110,"Irnfritz-Messern",1419
+gemeinde,31111,"Japons",696
+gemeinde,31113,"Langau",676
+gemeinde,31114,"Meiseldorf",841
+gemeinde,31117,"Pernegg",693
+gemeinde,31119,"Röhrenbach",482
+gemeinde,31120,"Röschitz",1134
+gemeinde,31121,"Rosenburg-Mold",863
+gemeinde,31123,"Sankt Bernhard-Frauenhofen",1279
+gemeinde,31124,"Sigmundsherberg",1698
+gemeinde,31129,"Weitersfeld",1525
+gemeinde,31130,"Straning-Grafenberg",692
+gemeinde,31201,"Bisamberg",4875
+gemeinde,31202,"Enzersfeld im Weinviertel",1867
+gemeinde,31203,"Ernstbrunn",3316
+gemeinde,31204,"Großmugl",1613
+gemeinde,31205,"Großrußbach",2305
+gemeinde,31206,"Hagenbrunn",2411
+gemeinde,31207,"Harmannsdorf",4142
+gemeinde,31208,"Hausleiten",3843
+gemeinde,31213,"Korneuburg",13805
+gemeinde,31214,"Langenzersdorf",8194
+gemeinde,31215,"Leitzersdorf",1147
+gemeinde,31216,"Leobendorf",5265
+gemeinde,31224,"Rußbach",1371
+gemeinde,31226,"Sierndorf",3985
+gemeinde,31227,"Spillern",2644
+gemeinde,31228,"Stetteldorf am Wagram",1065
+gemeinde,31229,"Stetten",1388
+gemeinde,31230,"Stockerau",17210
+gemeinde,31234,"Niederhollabrunn",1509
+gemeinde,31235,"Gerasdorf bei Wien",12158
+gemeinde,31301,"Aggsbach",615
+gemeinde,31302,"Albrechtsberg an der Großen Krems",989
+gemeinde,31303,"Bergern im Dunkelsteinerwald",1309
+gemeinde,31304,"Dürnstein",816
+gemeinde,31308,"Grafenegg",3308
+gemeinde,31309,"Furth bei Göttweig",3003
+gemeinde,31310,"Gedersdorf",2132
+gemeinde,31311,"Gföhl",3848
+gemeinde,31315,"Hadersdorf-Kammern",1975
+gemeinde,31319,"Jaidhof",1225
+gemeinde,31321,"Krumau am Kamp",722
+gemeinde,31322,"Langenlois",7477
+gemeinde,31323,"Lengenfeld",1393
+gemeinde,31324,"Lichtenau im Waldviertel",2028
+gemeinde,31326,"Maria Laach am Jauerling",888
+gemeinde,31327,"Mautern an der Donau",3375
+gemeinde,31330,"Mühldorf",1225
+gemeinde,31333,"Paudorf",2714
+gemeinde,31336,"Rastenfeld",1573
+gemeinde,31337,"Rohrendorf bei Krems",2107
+gemeinde,31338,"Rossatz-Arnsdorf",1046
+gemeinde,31340,"Sankt Leonhard am Hornerwald",1118
+gemeinde,31343,"Senftenberg",1917
+gemeinde,31344,"Spitz",1526
+gemeinde,31346,"Straß im Straßertale",1764
+gemeinde,31347,"Stratzing",883
+gemeinde,31350,"Weinzierl am Walde",1218
+gemeinde,31351,"Weißenkirchen in der Wachau",1359
+gemeinde,31355,"Schönberg am Kamp",1836
+gemeinde,31356,"Droß",1034
+gemeinde,31401,"Annaberg",479
+gemeinde,31402,"Eschenau",1286
+gemeinde,31403,"Hainfeld",3755
+gemeinde,31404,"Hohenberg",1396
+gemeinde,31405,"Kaumberg",1073
+gemeinde,31406,"Kleinzell",854
+gemeinde,31407,"Lilienfeld",2618
+gemeinde,31408,"Mitterbach am Erlaufsee",472
+gemeinde,31409,"Ramsau",802
+gemeinde,31410,"Rohrbach an der Gölsen",1531
+gemeinde,31411,"Sankt Aegyd am Neuwalde",1791
+gemeinde,31412,"Sankt Veit an der Gölsen",3848
+gemeinde,31413,"Traisen",3385
+gemeinde,31414,"Türnitz",1845
+gemeinde,31502,"Artstetten-Pöbring",1263
+gemeinde,31503,"Bergland",1901
+gemeinde,31504,"Bischofstetten",1196
+gemeinde,31505,"Blindenmarkt",2795
+gemeinde,31506,"Dorfstetten",547
+gemeinde,31507,"Dunkelsteinerwald",2408
+gemeinde,31508,"Erlauf",1119
+gemeinde,31509,"Golling an der Erlauf",1475
+gemeinde,31511,"Hofamt Priel",1714
+gemeinde,31513,"Hürm",2011
+gemeinde,31514,"Kilb",2595
+gemeinde,31515,"Kirnberg an der Mank",1114
+gemeinde,31516,"Klein-Pöchlarn",1053
+gemeinde,31517,"Krummnußbaum",1724
+gemeinde,31519,"Leiben",1321
+gemeinde,31520,"Loosdorf",3872
+gemeinde,31521,"Mank",3346
+gemeinde,31522,"Marbach an der Donau",1690
+gemeinde,31523,"Maria Taferl",953
+gemeinde,31524,"Melk",5725
+gemeinde,31525,"Münichreith-Laimbach",1610
+gemeinde,31527,"Neumarkt an der Ybbs",2168
+gemeinde,31528,"Nöchling",1017
+gemeinde,31530,"Persenbeug-Gottsdorf",2152
+gemeinde,31531,"Petzenkirchen",1597
+gemeinde,31533,"Pöchlarn",3969
+gemeinde,31534,"Pöggstall",2384
+gemeinde,31535,"Raxendorf",1010
+gemeinde,31537,"Ruprechtshofen",2332
+gemeinde,31539,"Sankt Leonhard am Forst",3109
+gemeinde,31540,"Sankt Martin-Karlsbach",1634
+gemeinde,31541,"Sankt Oswald",1140
+gemeinde,31542,"Schönbühel-Aggsbach",939
+gemeinde,31543,"Schollach",1082
+gemeinde,31546,"Weiten",1092
+gemeinde,31549,"Ybbs an der Donau",5648
+gemeinde,31550,"Zelking-Matzleinsdorf",1198
+gemeinde,31551,"Texingtal",1669
+gemeinde,31552,"Yspertal",2003
+gemeinde,31553,"Emmersdorf an der Donau",1776
+gemeinde,31601,"Altlichtenwarth",758
+gemeinde,31603,"Asparn an der Zaya",1936
+gemeinde,31604,"Bernhardsthal",1585
+gemeinde,31605,"Bockfließ",1288
+gemeinde,31606,"Drasenhofen",1117
+gemeinde,31608,"Falkenstein",559
+gemeinde,31609,"Fallbach",794
+gemeinde,31611,"Gaubitsch",934
+gemeinde,31612,"Gaweinstal",4124
+gemeinde,31613,"Gnadendorf",1162
+gemeinde,31614,"Großebersdorf",2316
+gemeinde,31615,"Großengersdorf",1549
+gemeinde,31616,"Großharras",1066
+gemeinde,31617,"Großkrut",1691
+gemeinde,31620,"Hausbrunn",898
+gemeinde,31621,"Herrnbaumgarten",926
+gemeinde,31622,"Hochleithen",1091
+gemeinde,31627,"Kreuttal",1467
+gemeinde,31628,"Kreuzstetten",1696
+gemeinde,31629,"Laa an der Thaya",6280
+gemeinde,31630,"Ladendorf",2321
+gemeinde,31633,"Mistelbach",12044
+gemeinde,31634,"Neudorf im Weinviertel",1348
+gemeinde,31636,"Niederleis",927
+gemeinde,31642,"Pillichsdorf",1249
+gemeinde,31644,"Poysdorf",5600
+gemeinde,31645,"Rabensburg",1061
+gemeinde,31646,"Schrattenberg",842
+gemeinde,31649,"Staatz",1923
+gemeinde,31650,"Stronsdorf",1535
+gemeinde,31651,"Ulrichskirchen-Schleinbach",2653
+gemeinde,31652,"Unterstinkenbrunn",560
+gemeinde,31653,"Wildendürnbach",1526
+gemeinde,31654,"Wilfersdorf",2087
+gemeinde,31655,"Wolkersdorf im Weinviertel",7544
+gemeinde,31658,"Ottenthal",529
+gemeinde,31701,"Achau",1727
+gemeinde,31702,"Biedermannsdorf",3137
+gemeinde,31703,"Breitenfurt bei Wien",5998
+gemeinde,31704,"Brunn am Gebirge",12310
+gemeinde,31706,"Gaaden",1595
+gemeinde,31707,"Gießhübl",2433
+gemeinde,31709,"Gumpoldskirchen",4022
+gemeinde,31710,"Guntramsdorf",9450
+gemeinde,31711,"Hennersdorf",1526
+gemeinde,31712,"Hinterbrühl",3895
+gemeinde,31713,"Kaltenleutgeben",3299
+gemeinde,31714,"Laab im Walde",1093
+gemeinde,31715,"Laxenburg",3091
+gemeinde,31716,"Maria Enzersdorf",8802
+gemeinde,31717,"Mödling",20662
+gemeinde,31718,"Münchendorf",3242
+gemeinde,31719,"Perchtoldsdorf",14960
+gemeinde,31723,"Vösendorf",7706
+gemeinde,31725,"Wiener Neudorf",9647
+gemeinde,31726,"Wienerwald",2930
+gemeinde,31801,"Altendorf",357
+gemeinde,31802,"Aspang-Markt",1804
+gemeinde,31803,"Aspangberg-Sankt Peter",1850
+gemeinde,31804,"Breitenau",1558
+gemeinde,31805,"Breitenstein",272
+gemeinde,31806,"Buchbach",354
+gemeinde,31807,"Edlitz",905
+gemeinde,31808,"Enzenreith",1942
+gemeinde,31809,"Feistritz am Wechsel",1029
+gemeinde,31810,"Gloggnitz",5834
+gemeinde,31811,"Grafenbach-Sankt Valentin",2322
+gemeinde,31812,"Grimmenstein",1335
+gemeinde,31813,"Grünbach am Schneeberg",1636
+gemeinde,31814,"Kirchberg am Wechsel",2519
+gemeinde,31815,"Mönichkirchen",622
+gemeinde,31817,"Natschbach-Loipersbach",1742
+gemeinde,31818,"Neunkirchen",12940
+gemeinde,31820,"Otterthal",537
+gemeinde,31821,"Payerbach",2103
+gemeinde,31823,"Pitten",2967
+gemeinde,31825,"Prigglitz",435
+gemeinde,31826,"Puchberg am Schneeberg",2701
+gemeinde,31827,"Raach am Hochgebirge",323
+gemeinde,31829,"Reichenau an der Rax",2473
+gemeinde,31830,"Sankt Corona am Wechsel",396
+gemeinde,31831,"Sankt Egyden am Steinfeld",2308
+gemeinde,31832,"Scheiblingkirchen-Thernberg",1956
+gemeinde,31833,"Schottwien",669
+gemeinde,31834,"Schrattenbach",387
+gemeinde,31835,"Schwarzau am Steinfeld",2187
+gemeinde,31836,"Schwarzau im Gebirge",620
+gemeinde,31837,"Seebenstein",1490
+gemeinde,31838,"Semmering",615
+gemeinde,31839,"Ternitz",14697
+gemeinde,31840,"Thomasberg",1233
+gemeinde,31841,"Trattenbach",514
+gemeinde,31842,"Bürg-Vöstenhof",158
+gemeinde,31843,"Warth",1570
+gemeinde,31844,"Wartmannstetten",1616
+gemeinde,31845,"Willendorf",993
+gemeinde,31846,"Wimpassing im Schwarzatale",1637
+gemeinde,31847,"Würflach",1657
+gemeinde,31848,"Zöbern",1351
+gemeinde,31849,"Höflein an der Hohen Wand",886
+gemeinde,31901,"Altlengbach",3265
+gemeinde,31902,"Asperhofen",2361
+gemeinde,31903,"Böheimkirchen",5294
+gemeinde,31904,"Brand-Laaben",1258
+gemeinde,31905,"Eichgraben",4794
+gemeinde,31906,"Frankenfels",1862
+gemeinde,31907,"Gerersdorf",1082
+gemeinde,31909,"Hofstetten-Grünau",2693
+gemeinde,31910,"Hafnerbach",1668
+gemeinde,31911,"Haunoldstein",1207
+gemeinde,31912,"Herzogenburg",7990
+gemeinde,31913,"Inzersdorf-Getzersdorf",1696
+gemeinde,31915,"Kapelln",1343
+gemeinde,31916,"Karlstetten",2250
+gemeinde,31917,"Kasten bei Böheimkirchen",1441
+gemeinde,31918,"Kirchberg an der Pielach",3117
+gemeinde,31919,"Kirchstetten",2292
+gemeinde,31920,"Loich",536
+gemeinde,31921,"Maria Anzbach",3236
+gemeinde,31922,"Markersdorf-Haindorf",2038
+gemeinde,31923,"Michelbach",852
+gemeinde,31925,"Neidling",1526
+gemeinde,31926,"Neulengbach",8675
+gemeinde,31927,"Neustift-Innermanzing",1579
+gemeinde,31928,"Nußdorf ob der Traisen",1905
+gemeinde,31929,"Ober-Grafendorf",4990
+gemeinde,31930,"Obritzberg-Rust",2387
+gemeinde,31932,"Prinzersdorf",1740
+gemeinde,31934,"Pyhra",3615
+gemeinde,31935,"Rabenstein an der Pielach",2488
+gemeinde,31938,"Sankt Margarethen an der Sierning",1053
+gemeinde,31939,"Schwarzenbach an der Pielach",339
+gemeinde,31940,"Statzendorf",1402
+gemeinde,31941,"Stössing",852
+gemeinde,31943,"Traismauer",6481
+gemeinde,31945,"Weinburg",1409
+gemeinde,31946,"Perschling",1564
+gemeinde,31947,"Wilhelmsburg",6557
+gemeinde,31948,"Wölbling",2436
+gemeinde,31949,"Gablitz",5172
+gemeinde,31950,"Mauerbach",3665
+gemeinde,31951,"Pressbaum",7932
+gemeinde,31952,"Purkersdorf",9970
+gemeinde,31953,"Tullnerbach",2938
+gemeinde,31954,"Wolfsgraben",1805
+gemeinde,32001,"Gaming",2879
+gemeinde,32002,"Göstling an der Ybbs",2040
+gemeinde,32003,"Gresten",1985
+gemeinde,32004,"Gresten-Land",1493
+gemeinde,32005,"Lunz am See",1758
+gemeinde,32006,"Oberndorf an der Melk",3015
+gemeinde,32007,"Puchenstuben",271
+gemeinde,32008,"Purgstall an der Erlauf",5359
+gemeinde,32009,"Randegg",1826
+gemeinde,32010,"Reinsberg",1040
+gemeinde,32011,"Sankt Anton an der Jeßnitz",1132
+gemeinde,32012,"Sankt Georgen an der Leys",1310
+gemeinde,32013,"Scheibbs",4198
+gemeinde,32014,"Steinakirchen am Forst",2292
+gemeinde,32015,"Wang",1370
+gemeinde,32016,"Wieselburg",4850
+gemeinde,32017,"Wieselburg-Land",3391
+gemeinde,32018,"Wolfpassing",1767
+gemeinde,32101,"Absdorf",2503
+gemeinde,32104,"Atzenbrugg",3493
+gemeinde,32106,"Fels am Wagram",2547
+gemeinde,32107,"Grafenwörth",3329
+gemeinde,32109,"Großriedenthal",975
+gemeinde,32110,"Großweikersdorf",3366
+gemeinde,32112,"Judenau-Baumgarten",2378
+gemeinde,32114,"Kirchberg am Wagram",3840
+gemeinde,32115,"Königsbrunn am Wagram",1438
+gemeinde,32116,"Königstetten",2521
+gemeinde,32119,"Langenrohr",2554
+gemeinde,32120,"Michelhausen",4373
+gemeinde,32131,"Sieghartskirchen",7813
+gemeinde,32132,"Sitzenberg-Reidling",2458
+gemeinde,32134,"Tulbing",3299
+gemeinde,32135,"Tulln an der Donau",16951
+gemeinde,32139,"Würmla",1641
+gemeinde,32140,"Zeiselmauer-Wolfpassing",2299
+gemeinde,32141,"Zwentendorf an der Donau",4190
+gemeinde,32142,"Sankt Andrä-Wördern",7956
+gemeinde,32143,"Muckendorf-Wipfing",1688
+gemeinde,32144,"Klosterneuburg",28152
+gemeinde,32202,"Dietmanns",1024
+gemeinde,32203,"Dobersberg",1531
+gemeinde,32206,"Gastern",1152
+gemeinde,32207,"Groß-Siegharts",2583
+gemeinde,32209,"Karlstein an der Thaya",1449
+gemeinde,32210,"Kautzen",1074
+gemeinde,32212,"Ludweis-Aigen",882
+gemeinde,32214,"Pfaffenschlag bei Waidhofen an der Thaya",904
+gemeinde,32216,"Raabs an der Thaya",2623
+gemeinde,32217,"Thaya",1472
+gemeinde,32219,"Vitis",2693
+gemeinde,32220,"Waidhofen an der Thaya",5236
+gemeinde,32221,"Waidhofen an der Thaya-Land",1287
+gemeinde,32222,"Waldkirchen an der Thaya",484
+gemeinde,32223,"Windigsteig",956
+gemeinde,32301,"Bad Fischau-Brunn",3532
+gemeinde,32302,"Bad Schönau",738
+gemeinde,32304,"Ebenfurth",3255
+gemeinde,32305,"Eggendorf",5096
+gemeinde,32306,"Bad Erlach",3312
+gemeinde,32307,"Felixdorf",4575
+gemeinde,32308,"Gutenstein",1256
+gemeinde,32309,"Hochneukirchen-Gschaidt",1639
+gemeinde,32310,"Hochwolkersdorf",982
+gemeinde,32311,"Hohe Wand",1457
+gemeinde,32312,"Hollenthon",1014
+gemeinde,32313,"Katzelsdorf",3162
+gemeinde,32314,"Kirchschlag in der Buckligen Welt",2767
+gemeinde,32315,"Krumbach",2398
+gemeinde,32316,"Lanzenkirchen",4431
+gemeinde,32317,"Lichtenegg",1056
+gemeinde,32318,"Lichtenwörth",2947
+gemeinde,32319,"Markt Piesting",3114
+gemeinde,32320,"Matzendorf-Hölles",2148
+gemeinde,32321,"Miesenbach",641
+gemeinde,32322,"Muggendorf",499
+gemeinde,32323,"Pernitz",2547
+gemeinde,32324,"Rohr im Gebirge",425
+gemeinde,32325,"Bromberg",1164
+gemeinde,32326,"Schwarzenbach",932
+gemeinde,32327,"Sollenau",5477
+gemeinde,32330,"Theresienfeld",4254
+gemeinde,32331,"Waidmannsfeld",1474
+gemeinde,32332,"Waldegg",1993
+gemeinde,32333,"Walpersbach",1230
+gemeinde,32334,"Weikersdorf am Steinfelde",1112
+gemeinde,32335,"Wiesmath",1543
+gemeinde,32336,"Winzendorf-Muthmannsdorf",1859
+gemeinde,32337,"Wöllersdorf-Steinabrückl",5094
+gemeinde,32338,"Zillingdorf",2080
+gemeinde,32501,"Allentsteig",1739
+gemeinde,32502,"Arbesbach",1580
+gemeinde,32503,"Bärnkopf",328
+gemeinde,32504,"Echsenbach",1246
+gemeinde,32505,"Göpfritz an der Wild",1743
+gemeinde,32506,"Grafenschlag",833
+gemeinde,32508,"Groß Gerungs",4459
+gemeinde,32509,"Großgöttfritz",1317
+gemeinde,32511,"Gutenbrunn",511
+gemeinde,32514,"Kirchschlag",621
+gemeinde,32515,"Kottes-Purk",1436
+gemeinde,32516,"Langschlag",1716
+gemeinde,32517,"Martinsberg",1050
+gemeinde,32518,"Ottenschlag",1015
+gemeinde,32519,"Altmelon",849
+gemeinde,32520,"Pölla",915
+gemeinde,32521,"Rappottenstein",1736
+gemeinde,32522,"Sallingberg",1256
+gemeinde,32523,"Schönbach",738
+gemeinde,32524,"Schwarzenau",1470
+gemeinde,32525,"Schweiggers",2028
+gemeinde,32528,"Bad Traunstein",983
+gemeinde,32529,"Waldhausen",1188
+gemeinde,32530,"Zwettl-Niederösterreich",10771
+gemeinde,40101,"Linz",213557
+gemeinde,40201,"Steyr",38036
+gemeinde,40301,"Wels",65482
+gemeinde,40401,"Altheim",5092
+gemeinde,40402,"Aspach",2662
+gemeinde,40403,"Auerbach",836
+gemeinde,40404,"Braunau am Inn",17604
+gemeinde,40405,"Burgkirchen",2757
+gemeinde,40406,"Eggelsberg",2959
+gemeinde,40407,"Feldkirchen bei Mattighofen",2142
+gemeinde,40408,"Franking",1034
+gemeinde,40409,"Geretsberg",1193
+gemeinde,40410,"Gilgenberg am Weilhart",1327
+gemeinde,40411,"Haigermoos",654
+gemeinde,40412,"Handenberg",1326
+gemeinde,40413,"Helpfau-Uttendorf",3788
+gemeinde,40414,"Hochburg-Ach",3379
+gemeinde,40415,"Höhnhart",1489
+gemeinde,40416,"Jeging",796
+gemeinde,40417,"Kirchberg bei Mattighofen",1316
+gemeinde,40418,"Lengau",5144
+gemeinde,40419,"Lochen am See",3019
+gemeinde,40420,"Maria Schmolln",1473
+gemeinde,40421,"Mattighofen",7701
+gemeinde,40422,"Mauerkirchen",2689
+gemeinde,40423,"Mining",1307
+gemeinde,40424,"Moosbach",1141
+gemeinde,40425,"Moosdorf",1727
+gemeinde,40426,"Munderfing",3104
+gemeinde,40427,"Neukirchen an der Enknach",2339
+gemeinde,40428,"Ostermiething",3403
+gemeinde,40429,"Palting",1294
+gemeinde,40430,"Perwang am Grabensee",1133
+gemeinde,40431,"Pfaffstätt",1293
+gemeinde,40432,"Pischelsdorf am Engelbach",1780
+gemeinde,40433,"Polling im Innkreis",992
+gemeinde,40434,"Roßbach",890
+gemeinde,40435,"Sankt Georgen am Fillmannsbach",472
+gemeinde,40436,"Sankt Johann am Walde",2044
+gemeinde,40437,"Sankt Pantaleon",3295
+gemeinde,40438,"Sankt Peter am Hart",2575
+gemeinde,40439,"Sankt Radegund",701
+gemeinde,40440,"Sankt Veit im Innkreis",406
+gemeinde,40441,"Schalchen",4173
+gemeinde,40442,"Schwand im Innkreis",1063
+gemeinde,40443,"Tarsdorf",2123
+gemeinde,40444,"Treubach",790
+gemeinde,40445,"Überackern",689
+gemeinde,40446,"Weng im Innkreis",1457
+gemeinde,40501,"Alkoven",6172
+gemeinde,40502,"Aschach an der Donau",2226
+gemeinde,40503,"Eferding",4367
+gemeinde,40504,"Fraham",2614
+gemeinde,40505,"Haibach ob der Donau",1260
+gemeinde,40506,"Hartkirchen",3919
+gemeinde,40507,"Hinzenbach",2052
+gemeinde,40508,"Prambachkirchen",2996
+gemeinde,40509,"Pupping",1861
+gemeinde,40510,"Sankt Marienkirchen an der Polsenz",2348
+gemeinde,40511,"Scharten",2374
+gemeinde,40512,"Stroheim",1695
+gemeinde,40601,"Freistadt",8270
+gemeinde,40602,"Grünbach",1867
+gemeinde,40603,"Gutau",2789
+gemeinde,40604,"Hagenberg im Mühlkreis",3163
+gemeinde,40605,"Hirschbach im Mühlkreis",1224
+gemeinde,40606,"Kaltenberg",587
+gemeinde,40607,"Kefermarkt",2217
+gemeinde,40608,"Königswiesen",3046
+gemeinde,40609,"Lasberg",2882
+gemeinde,40610,"Leopoldschlag",985
+gemeinde,40611,"Liebenau",1618
+gemeinde,40612,"Neumarkt im Mühlkreis",3259
+gemeinde,40613,"Pierbach",1019
+gemeinde,40614,"Pregarten",5608
+gemeinde,40615,"Rainbach im Mühlkreis",3018
+gemeinde,40616,"Sandl",1405
+gemeinde,40617,"Sankt Leonhard bei Freistadt",1320
+gemeinde,40618,"Sankt Oswald bei Freistadt",3019
+gemeinde,40619,"Schönau im Mühlkreis",1975
+gemeinde,40620,"Tragwein",3152
+gemeinde,40621,"Unterweißenbach",2184
+gemeinde,40622,"Unterweitersdorf",2197
+gemeinde,40623,"Waldburg",1464
+gemeinde,40624,"Wartberg ob der Aist",4489
+gemeinde,40625,"Weitersfelden",1021
+gemeinde,40626,"Windhaag bei Freistadt",1586
+gemeinde,40627,"Bad Zell",2962
+gemeinde,40701,"Altmünster",9998
+gemeinde,40702,"Bad Goisern am Hallstättersee",7575
+gemeinde,40703,"Bad Ischl",14107
+gemeinde,40704,"Ebensee am Traunsee",7452
+gemeinde,40705,"Gmunden",13231
+gemeinde,40706,"Gosau",1865
+gemeinde,40707,"Grünau im Almtal",2030
+gemeinde,40708,"Gschwandt",2977
+gemeinde,40709,"Hallstatt",737
+gemeinde,40710,"Kirchham",2238
+gemeinde,40711,"Laakirchen",9766
+gemeinde,40712,"Obertraun",728
+gemeinde,40713,"Ohlsdorf",5348
+gemeinde,40714,"Pinsdorf",4439
+gemeinde,40715,"Roitham am Traunfall",2140
+gemeinde,40716,"Sankt Konrad",1163
+gemeinde,40717,"Sankt Wolfgang im Salzkammergut",2880
+gemeinde,40718,"Traunkirchen",1717
+gemeinde,40719,"Scharnstein",4897
+gemeinde,40720,"Vorchdorf",7867
+gemeinde,40801,"Aistersheim",1013
+gemeinde,40802,"Bad Schallerbach",4545
+gemeinde,40804,"Eschenau im Hausruckkreis",1050
+gemeinde,40805,"Gallspach",2842
+gemeinde,40806,"Gaspoltshofen",3651
+gemeinde,40807,"Geboltskirchen",1469
+gemeinde,40808,"Grieskirchen",5226
+gemeinde,40809,"Haag am Hausruck",2352
+gemeinde,40810,"Heiligenberg",723
+gemeinde,40811,"Hofkirchen an der Trattnach",1696
+gemeinde,40812,"Kallham",2510
+gemeinde,40813,"Kematen am Innbach",1403
+gemeinde,40814,"Meggenhofen",1538
+gemeinde,40815,"Michaelnbach",1301
+gemeinde,40816,"Natternbach",2311
+gemeinde,40817,"Neukirchen am Walde",1670
+gemeinde,40818,"Neumarkt im Hausruckkreis",1523
+gemeinde,40820,"Pötting",569
+gemeinde,40821,"Pollham",1029
+gemeinde,40822,"Pram",1754
+gemeinde,40823,"Rottenbach",1153
+gemeinde,40824,"Sankt Agatha",2183
+gemeinde,40825,"Sankt Georgen bei Grieskirchen",1319
+gemeinde,40826,"Sankt Thomas",584
+gemeinde,40827,"Schlüßlberg",3051
+gemeinde,40828,"Steegen",1097
+gemeinde,40829,"Taufkirchen an der Trattnach",1955
+gemeinde,40830,"Tollet",948
+gemeinde,40831,"Waizenkirchen",3909
+gemeinde,40832,"Wallern an der Trattnach",3119
+gemeinde,40833,"Weibern",1675
+gemeinde,40834,"Wendling",893
+gemeinde,40835,"Peuerbach",4689
+gemeinde,40901,"Edlbach",645
+gemeinde,40902,"Grünburg",3834
+gemeinde,40903,"Hinterstoder",860
+gemeinde,40904,"Inzersdorf im Kremstal",1890
+gemeinde,40905,"Kirchdorf an der Krems",5011
+gemeinde,40906,"Klaus an der Pyhrnbahn",1137
+gemeinde,40907,"Kremsmünster",7041
+gemeinde,40908,"Micheldorf in Oberösterreich",5976
+gemeinde,40909,"Molln",3599
+gemeinde,40910,"Nußbach",2298
+gemeinde,40911,"Oberschlierbach",476
+gemeinde,40912,"Pettenbach",5409
+gemeinde,40913,"Ried im Traunkreis",2951
+gemeinde,40914,"Rosenau am Hengstpaß",649
+gemeinde,40915,"Roßleithen",1826
+gemeinde,40916,"Sankt Pankraz",376
+gemeinde,40917,"Schlierbach",2941
+gemeinde,40918,"Spital am Pyhrn",2304
+gemeinde,40919,"Steinbach am Ziehberg",887
+gemeinde,40920,"Steinbach an der Steyr",1961
+gemeinde,40921,"Vorderstoder",838
+gemeinde,40922,"Wartberg an der Krems",2934
+gemeinde,40923,"Windischgarsten",2356
+gemeinde,41001,"Allhaming",1259
+gemeinde,41002,"Ansfelden",18271
+gemeinde,41003,"Asten",7444
+gemeinde,41004,"Eggendorf im Traunkreis",1161
+gemeinde,41005,"Enns",12184
+gemeinde,41006,"Hargelsberg",1455
+gemeinde,41007,"Hörsching",6571
+gemeinde,41008,"Hofkirchen im Traunkreis",2085
+gemeinde,41009,"Kematen an der Krems",3090
+gemeinde,41010,"Kirchberg-Thening",2540
+gemeinde,41011,"Kronstorf",3490
+gemeinde,41012,"Leonding",29244
+gemeinde,41013,"Sankt Florian",6318
+gemeinde,41014,"Neuhofen an der Krems",6865
+gemeinde,41015,"Niederneukirchen",2090
+gemeinde,41016,"Oftering",2121
+gemeinde,41017,"Pasching",7931
+gemeinde,41018,"Piberbach",2045
+gemeinde,41019,"Pucking",4187
+gemeinde,41020,"Sankt Marien",5240
+gemeinde,41021,"Traun",25345
+gemeinde,41022,"Wilhering",6215
+gemeinde,41101,"Allerheiligen im Mühlkreis",1288
+gemeinde,41102,"Arbing",1545
+gemeinde,41103,"Baumgartenberg",1879
+gemeinde,41104,"Dimbach",996
+gemeinde,41105,"Grein",2925
+gemeinde,41106,"Katsdorf",3316
+gemeinde,41107,"Klam",974
+gemeinde,41108,"Bad Kreuzen",2372
+gemeinde,41109,"Langenstein",2574
+gemeinde,41110,"Luftenberg an der Donau",4329
+gemeinde,41111,"Mauthausen",4915
+gemeinde,41112,"Mitterkirchen im Machland",1777
+gemeinde,41113,"Münzbach",1898
+gemeinde,41114,"Naarn im Machlande",3859
+gemeinde,41115,"Pabneukirchen",1693
+gemeinde,41116,"Perg",9482
+gemeinde,41117,"Rechberg",1046
+gemeinde,41118,"Ried in der Riedmark",4394
+gemeinde,41119,"Sankt Georgen am Walde",1975
+gemeinde,41120,"Sankt Georgen an der Gusen",4459
+gemeinde,41121,"Sankt Nikola an der Donau",758
+gemeinde,41122,"Sankt Thomas am Blasenstein",949
+gemeinde,41123,"Saxen",1687
+gemeinde,41124,"Schwertberg",5476
+gemeinde,41125,"Waldhausen im Strudengau",2879
+gemeinde,41126,"Windhaag bei Perg",1540
+gemeinde,41201,"Andrichsfurt",797
+gemeinde,41202,"Antiesenhofen",1102
+gemeinde,41203,"Aurolzmünster",3248
+gemeinde,41204,"Eberschwang",3532
+gemeinde,41205,"Eitzing",911
+gemeinde,41206,"Geiersberg",484
+gemeinde,41207,"Geinberg",1444
+gemeinde,41208,"Gurten",1190
+gemeinde,41209,"Hohenzell",2343
+gemeinde,41210,"Kirchdorf am Inn",661
+gemeinde,41211,"Kirchheim im Innkreis",803
+gemeinde,41212,"Lambrechten",1322
+gemeinde,41213,"Lohnsburg am Kobernaußerwald",2205
+gemeinde,41214,"Mehrnbach",2356
+gemeinde,41215,"Mettmach",2444
+gemeinde,41216,"Mörschwang",327
+gemeinde,41217,"Mühlheim am Inn",719
+gemeinde,41218,"Neuhofen im Innkreis",2529
+gemeinde,41219,"Obernberg am Inn",1715
+gemeinde,41220,"Ort im Innkreis",1388
+gemeinde,41221,"Pattigham",1092
+gemeinde,41222,"Peterskirchen",661
+gemeinde,41223,"Pramet",1038
+gemeinde,41224,"Reichersberg",1666
+gemeinde,41225,"Ried im Innkreis",12766
+gemeinde,41226,"Sankt Georgen bei Obernberg am Inn",526
+gemeinde,41227,"Sankt Marienkirchen am Hausruck",904
+gemeinde,41228,"Sankt Martin im Innkreis",2218
+gemeinde,41229,"Schildorn",1230
+gemeinde,41230,"Senftenbach",789
+gemeinde,41231,"Taiskirchen im Innkreis",2437
+gemeinde,41232,"Tumeltsham",1587
+gemeinde,41233,"Utzenaich",1661
+gemeinde,41234,"Waldzell",2299
+gemeinde,41235,"Weilbach",609
+gemeinde,41236,"Wippenham",574
+gemeinde,41304,"Altenfelden",2284
+gemeinde,41305,"Arnreit",1199
+gemeinde,41306,"Atzesberg",446
+gemeinde,41307,"Auberg",616
+gemeinde,41309,"Haslach an der Mühl",2581
+gemeinde,41311,"Hörbich",421
+gemeinde,41312,"Hofkirchen im Mühlkreis",1547
+gemeinde,41313,"Julbach",1528
+gemeinde,41314,"Kirchberg ob der Donau",1071
+gemeinde,41315,"Klaffer am Hochficht",1376
+gemeinde,41316,"Kleinzell im Mühlkreis",1707
+gemeinde,41317,"Kollerschlag",1542
+gemeinde,41318,"Lembach im Mühlkreis",1512
+gemeinde,41319,"Lichtenau im Mühlkreis",481
+gemeinde,41320,"Nebelberg",641
+gemeinde,41321,"Neufelden",1214
+gemeinde,41322,"Niederkappel",996
+gemeinde,41323,"Niederwaldkirchen",1866
+gemeinde,41324,"Oberkappel",743
+gemeinde,41325,"Oepping",1555
+gemeinde,41326,"Peilstein im Mühlviertel",1562
+gemeinde,41327,"Pfarrkirchen im Mühlkreis",1385
+gemeinde,41328,"Putzleinsdorf",1546
+gemeinde,41329,"Neustift im Mühlkreis",1465
+gemeinde,41331,"Sankt Johann am Wimberg",1009
+gemeinde,41332,"Sankt Martin im Mühlkreis",3805
+gemeinde,41333,"Sankt Oswald bei Haslach",521
+gemeinde,41334,"Sankt Peter am Wimberg",1790
+gemeinde,41336,"Sankt Ulrich im Mühlkreis",719
+gemeinde,41337,"Sankt Veit im Mühlkreis",1337
+gemeinde,41338,"Sarleinsbach",2246
+gemeinde,41341,"Schwarzenberg am Böhmerwald",576
+gemeinde,41342,"Ulrichsberg",2858
+gemeinde,41343,"Aigen-Schlägl",3282
+gemeinde,41344,"Rohrbach-Berg",5291
+gemeinde,41345,"Helfenberg",1552
+gemeinde,41346,"Sankt Stefan-Afiesl",1094
+gemeinde,41401,"Altschwendt",721
+gemeinde,41402,"Andorf",5221
+gemeinde,41403,"Brunnenthal",2080
+gemeinde,41404,"Diersbach",1522
+gemeinde,41405,"Dorf an der Pram",1088
+gemeinde,41406,"Eggerding",1378
+gemeinde,41407,"Engelhartszell",906
+gemeinde,41408,"Enzenkirchen",1780
+gemeinde,41409,"Esternberg",2849
+gemeinde,41410,"Freinberg",1531
+gemeinde,41411,"Kopfing im Innkreis",1965
+gemeinde,41412,"Mayrhof",329
+gemeinde,41413,"Münzkirchen",2575
+gemeinde,41414,"Raab",2324
+gemeinde,41415,"Rainbach im Innkreis",1576
+gemeinde,41416,"Riedau",2012
+gemeinde,41417,"Sankt Aegidi",1569
+gemeinde,41418,"Sankt Florian am Inn",3225
+gemeinde,41419,"Sankt Marienkirchen bei Schärding",2029
+gemeinde,41420,"Sankt Roman",1776
+gemeinde,41421,"Sankt Willibald",1074
+gemeinde,41422,"Schärding",5595
+gemeinde,41423,"Schardenberg",2472
+gemeinde,41424,"Sigharting",892
+gemeinde,41425,"Suben",1722
+gemeinde,41426,"Taufkirchen an der Pram",2963
+gemeinde,41427,"Vichtenstein",615
+gemeinde,41428,"Waldkirchen am Wesen",1155
+gemeinde,41429,"Wernstein am Inn",1534
+gemeinde,41430,"Zell an der Pram",1955
+gemeinde,41501,"Adlwang",2166
+gemeinde,41502,"Aschach an der Steyr",2302
+gemeinde,41503,"Bad Hall",5868
+gemeinde,41504,"Dietach",3460
+gemeinde,41505,"Gaflenz",1961
+gemeinde,41506,"Garsten",6674
+gemeinde,41507,"Großraming",2636
+gemeinde,41508,"Laussa",1240
+gemeinde,41509,"Losenstein",1678
+gemeinde,41510,"Maria Neustift",1633
+gemeinde,41511,"Pfarrkirchen bei Bad Hall",2359
+gemeinde,41512,"Reichraming",1670
+gemeinde,41513,"Rohr im Kremstal",1494
+gemeinde,41514,"Sankt Ulrich bei Steyr",3235
+gemeinde,41515,"Schiedlberg",1317
+gemeinde,41516,"Sierning",9867
+gemeinde,41517,"Ternberg",3390
+gemeinde,41518,"Waldneukirchen",2279
+gemeinde,41521,"Wolfern",3389
+gemeinde,41522,"Weyer",3995
+gemeinde,41601,"Alberndorf in der Riedmark",4214
+gemeinde,41602,"Altenberg bei Linz",4835
+gemeinde,41603,"Bad Leonfelden",4434
+gemeinde,41604,"Eidenberg",2141
+gemeinde,41605,"Engerwitzdorf",9099
+gemeinde,41606,"Feldkirchen an der Donau",5580
+gemeinde,41607,"Gallneukirchen",6747
+gemeinde,41608,"Goldwörth",750
+gemeinde,41609,"Gramastetten",5137
+gemeinde,41610,"Haibach im Mühlkreis",973
+gemeinde,41611,"Hellmonsödt",2428
+gemeinde,41612,"Herzogsdorf",2741
+gemeinde,41613,"Kirchschlag bei Linz",2247
+gemeinde,41614,"Lichtenberg",2904
+gemeinde,41615,"Oberneukirchen",3254
+gemeinde,41616,"Ottenschlag im Mühlkreis",588
+gemeinde,41617,"Ottensheim",4748
+gemeinde,41618,"Puchenau",4695
+gemeinde,41619,"Reichenau im Mühlkreis",1355
+gemeinde,41620,"Reichenthal",1553
+gemeinde,41621,"Sankt Gotthard im Mühlkreis",1321
+gemeinde,41622,"Schenkenfelden",1619
+gemeinde,41623,"Sonnberg im Mühlkreis",1115
+gemeinde,41624,"Steyregg",5005
+gemeinde,41626,"Walding",4290
+gemeinde,41627,"Zwettl an der Rodl",1807
+gemeinde,41628,"Vorderweißenbach",2758
+gemeinde,41701,"Ampflwang im Hausruckwald",3441
+gemeinde,41702,"Attersee am Attersee",1672
+gemeinde,41703,"Attnang-Puchheim",9289
+gemeinde,41704,"Atzbach",1205
+gemeinde,41705,"Aurach am Hongar",1873
+gemeinde,41706,"Berg im Attergau",1148
+gemeinde,41707,"Desselbrunn",1951
+gemeinde,41708,"Fornach",1004
+gemeinde,41709,"Frankenburg am Hausruck",4965
+gemeinde,41710,"Frankenmarkt",3868
+gemeinde,41711,"Gampern",3123
+gemeinde,41712,"Innerschwand am Mondsee",1288
+gemeinde,41713,"Lenzing an der Ager",5252
+gemeinde,41714,"Manning",799
+gemeinde,41715,"Mondsee",3940
+gemeinde,41716,"Neukirchen an der Vöckla",2617
+gemeinde,41717,"Niederthalheim",1156
+gemeinde,41718,"Nußdorf am Attersee",1132
+gemeinde,41719,"Oberhofen am Irrsee",1730
+gemeinde,41720,"Oberndorf bei Schwanenstadt",1385
+gemeinde,41721,"Oberwang",1771
+gemeinde,41722,"Ottnang am Hausruck",4111
+gemeinde,41723,"Pfaffing",1521
+gemeinde,41724,"Pilsbach",680
+gemeinde,41725,"Pitzenberg",576
+gemeinde,41726,"Pöndorf",2433
+gemeinde,41727,"Puchkirchen am Trattberg",1092
+gemeinde,41728,"Pühret",666
+gemeinde,41729,"Redleiten",529
+gemeinde,41730,"Redlham",1649
+gemeinde,41731,"Regau",7200
+gemeinde,41732,"Rüstorf",2304
+gemeinde,41733,"Rutzenham",291
+gemeinde,41734,"Sankt Georgen im Attergau",4935
+gemeinde,41735,"Sankt Lorenz",2648
+gemeinde,41736,"Schlatt",1413
+gemeinde,41737,"Schörfling am Attersee",3519
+gemeinde,41738,"Schwanenstadt",4800
+gemeinde,41739,"Seewalchen am Attersee",5741
+gemeinde,41740,"Steinbach am Attersee",910
+gemeinde,41741,"Straß im Attergau",1542
+gemeinde,41742,"Tiefgraben",4189
+gemeinde,41743,"Timelkam",5913
+gemeinde,41744,"Ungenach",1459
+gemeinde,41745,"Unterach am Attersee",1561
+gemeinde,41746,"Vöcklabruck",12989
+gemeinde,41747,"Vöcklamarkt",5192
+gemeinde,41748,"Weißenkirchen im Attergau",950
+gemeinde,41749,"Weyregg am Attersee",1630
+gemeinde,41750,"Wolfsegg am Hausruck",1997
+gemeinde,41751,"Zell am Moos",1665
+gemeinde,41752,"Zell am Pettenfirst",1274
+gemeinde,41801,"Aichkirchen",622
+gemeinde,41802,"Bachmanning",725
+gemeinde,41803,"Bad Wimsbach-Neydharting",2509
+gemeinde,41804,"Buchkirchen",4106
+gemeinde,41805,"Eberstalzell",2913
+gemeinde,41806,"Edt bei Lambach",2366
+gemeinde,41807,"Fischlham",1381
+gemeinde,41808,"Gunskirchen",6513
+gemeinde,41809,"Holzhausen",1167
+gemeinde,41810,"Krenglbach",3260
+gemeinde,41811,"Lambach",3912
+gemeinde,41812,"Marchtrenk",14815
+gemeinde,41813,"Neukirchen bei Lambach",996
+gemeinde,41814,"Offenhausen",1697
+gemeinde,41815,"Pennewang",1059
+gemeinde,41816,"Pichl bei Wels",2952
+gemeinde,41817,"Sattledt",2755
+gemeinde,41818,"Schleißheim",1439
+gemeinde,41819,"Sipbachzell",2254
+gemeinde,41820,"Stadl-Paura",5307
+gemeinde,41821,"Steinerkirchen an der Traun",2458
+gemeinde,41822,"Steinhaus",2775
+gemeinde,41823,"Thalheim bei Wels",5559
+gemeinde,41824,"Weißkirchen an der Traun",3570
+gemeinde,50101,"Salzburg",157659
+gemeinde,50201,"Abtenau",6008
+gemeinde,50202,"Adnet",3793
+gemeinde,50203,"Annaberg-Lungötz",2230
+gemeinde,50204,"Golling an der Salzach",4510
+gemeinde,50205,"Hallein",21654
+gemeinde,50206,"Krispl",863
+gemeinde,50207,"Kuchl",7512
+gemeinde,50208,"Oberalm",4392
+gemeinde,50209,"Puch bei Hallein",4919
+gemeinde,50210,"Rußbach am Paß Gschütt",772
+gemeinde,50211,"Sankt Koloman",1819
+gemeinde,50212,"Scheffau am Tennengebirge",1512
+gemeinde,50213,"Bad Vigaun",2131
+gemeinde,50301,"Anif",4425
+gemeinde,50302,"Anthering",3733
+gemeinde,50303,"Bergheim",5717
+gemeinde,50304,"Berndorf bei Salzburg",1776
+gemeinde,50305,"Bürmoos",5052
+gemeinde,50306,"Dorfbeuern",1605
+gemeinde,50307,"Ebenau",1458
+gemeinde,50308,"Elixhausen",3141
+gemeinde,50309,"Elsbethen",5453
+gemeinde,50310,"Eugendorf",7134
+gemeinde,50311,"Faistenau",3143
+gemeinde,50312,"Fuschl am See",1731
+gemeinde,50313,"Göming",767
+gemeinde,50314,"Grödig",7376
+gemeinde,50315,"Großgmain",2728
+gemeinde,50316,"Hallwang",4270
+gemeinde,50317,"Henndorf am Wallersee",5166
+gemeinde,50318,"Hintersee",472
+gemeinde,50319,"Hof bei Salzburg",3625
+gemeinde,50320,"Köstendorf",2742
+gemeinde,50321,"Koppl",3714
+gemeinde,50322,"Lamprechtshausen",4108
+gemeinde,50323,"Mattsee",3538
+gemeinde,50324,"Neumarkt am Wallersee",6657
+gemeinde,50325,"Nußdorf am Haunsberg",2552
+gemeinde,50326,"Oberndorf bei Salzburg",6058
+gemeinde,50327,"Obertrum am See",5036
+gemeinde,50328,"Plainfeld",1291
+gemeinde,50329,"Sankt Georgen bei Salzburg",3227
+gemeinde,50330,"Sankt Gilgen",4042
+gemeinde,50331,"Schleedorf",1144
+gemeinde,50332,"Seeham",2035
+gemeinde,50335,"Straßwalchen",8194
+gemeinde,50336,"Strobl",3748
+gemeinde,50337,"Thalgau",6229
+gemeinde,50338,"Wals-Siezenheim",14413
+gemeinde,50339,"Seekirchen am Wallersee",11708
+gemeinde,50401,"Altenmarkt im Pongau",4705
+gemeinde,50402,"Bad Hofgastein",6677
+gemeinde,50403,"Bad Gastein",4009
+gemeinde,50404,"Bischofshofen",10743
+gemeinde,50405,"Dorfgastein",1745
+gemeinde,50406,"Eben im Pongau",2682
+gemeinde,50407,"Filzmoos",1507
+gemeinde,50408,"Flachau",3106
+gemeinde,50409,"Forstau",561
+gemeinde,50410,"Goldegg",2736
+gemeinde,50411,"Großarl",3843
+gemeinde,50412,"Hüttau",1490
+gemeinde,50413,"Hüttschlag",885
+gemeinde,50414,"Kleinarl",832
+gemeinde,50415,"Mühlbach am Hochkönig",1403
+gemeinde,50416,"Pfarrwerfen",2614
+gemeinde,50417,"Radstadt",5043
+gemeinde,50418,"Sankt Johann im Pongau",11643
+gemeinde,50419,"Sankt Martin am Tennengebirge",1777
+gemeinde,50420,"Sankt Veit im Pongau",3944
+gemeinde,50421,"Schwarzach im Pongau",3541
+gemeinde,50422,"Untertauern",450
+gemeinde,50423,"Wagrain",3177
+gemeinde,50424,"Werfen",3092
+gemeinde,50425,"Werfenweng",1105
+gemeinde,50501,"Göriach",339
+gemeinde,50502,"Lessach",542
+gemeinde,50503,"Mariapfarr",2507
+gemeinde,50504,"Mauterndorf",1591
+gemeinde,50505,"Muhr",490
+gemeinde,50506,"Ramingstein",1060
+gemeinde,50507,"Sankt Andrä im Lungau",768
+gemeinde,50508,"Sankt Margarethen im Lungau",778
+gemeinde,50509,"Sankt Michael im Lungau",3527
+gemeinde,50510,"Tamsweg",5784
+gemeinde,50511,"Thomatal",331
+gemeinde,50512,"Tweng",246
+gemeinde,50513,"Unternberg",1024
+gemeinde,50514,"Weißpriach",297
+gemeinde,50515,"Zederhaus",1176
+gemeinde,50601,"Bramberg am Wildkogel",4121
+gemeinde,50602,"Bruck an der Großglocknerstraße",4920
+gemeinde,50603,"Dienten am Hochkönig",723
+gemeinde,50604,"Fusch an der Großglocknerstraße",746
+gemeinde,50605,"Hollersbach im Pinzgau",1230
+gemeinde,50606,"Kaprun",3158
+gemeinde,50607,"Krimml",821
+gemeinde,50608,"Lend",1288
+gemeinde,50609,"Leogang",3582
+gemeinde,50610,"Lofer",2107
+gemeinde,50611,"Maishofen",3667
+gemeinde,50612,"Maria Alm am Steinernen Meer",2265
+gemeinde,50613,"Mittersill",5723
+gemeinde,50614,"Neukirchen am Großvenediger",2685
+gemeinde,50615,"Niedernsill",2860
+gemeinde,50616,"Piesendorf",3863
+gemeinde,50617,"Rauris",3084
+gemeinde,50618,"Saalbach-Hinterglemm",2881
+gemeinde,50619,"Saalfelden am Steinernen Meer",17299
+gemeinde,50620,"Sankt Martin bei Lofer",1218
+gemeinde,50621,"Stuhlfelden",1554
+gemeinde,50622,"Taxenbach",2828
+gemeinde,50623,"Unken",2034
+gemeinde,50624,"Uttendorf",3064
+gemeinde,50625,"Viehhofen",598
+gemeinde,50626,"Wald im Pinzgau",1132
+gemeinde,50627,"Weißbach bei Lofer",416
+gemeinde,50628,"Zell am See",10227
+gemeinde,60101,"Graz",305314
+gemeinde,60305,"Frauental an der Laßnitz",3170
+gemeinde,60318,"Lannach",3670
+gemeinde,60323,"Pölfing-Brunn",1561
+gemeinde,60324,"Preding",1896
+gemeinde,60326,"Sankt Josef (Weststeiermark)",1675
+gemeinde,60329,"Sankt Peter im Sulmtal",1271
+gemeinde,60341,"Wettmannstätten",1649
+gemeinde,60344,"Deutschlandsberg",11757
+gemeinde,60345,"Eibiswald",6154
+gemeinde,60346,"Groß Sankt Florian",4090
+gemeinde,60347,"Sankt Martin im Sulmtal",3000
+gemeinde,60348,"Sankt Stefan ob Stainz",3671
+gemeinde,60349,"Bad Schwanberg",4421
+gemeinde,60350,"Stainz",8783
+gemeinde,60351,"Wies",4297
+gemeinde,60608,"Feldkirchen bei Graz",7299
+gemeinde,60611,"Gössendorf",4220
+gemeinde,60613,"Gratkorn",8279
+gemeinde,60617,"Hart bei Graz",5533
+gemeinde,60618,"Haselsdorf-Tobelbad",1610
+gemeinde,60619,"Hausmannstätten",3803
+gemeinde,60623,"Kainbach bei Graz",2883
+gemeinde,60624,"Kalsdorf bei Graz",9010
+gemeinde,60626,"Kumberg",3947
+gemeinde,60628,"Laßnitzhöhe",2902
+gemeinde,60629,"Lieboch",5754
+gemeinde,60632,"Peggau",2432
+gemeinde,60639,"Sankt Bartholomä",1504
+gemeinde,60641,"Sankt Oswald bei Plankenwarth",1260
+gemeinde,60642,"Sankt Radegund bei Graz",2156
+gemeinde,60645,"Semriach",3143
+gemeinde,60646,"Stattegg",3029
+gemeinde,60647,"Stiwoll",691
+gemeinde,60648,"Thal",2541
+gemeinde,60651,"Übelbach",2068
+gemeinde,60653,"Vasoldsberg",4789
+gemeinde,60654,"Weinitzen",2751
+gemeinde,60655,"Werndorf",2956
+gemeinde,60656,"Wundschuh",1684
+gemeinde,60659,"Deutschfeistritz",4432
+gemeinde,60660,"Dobl-Zwaring",3798
+gemeinde,60661,"Eggersdorf bei Graz",7329
+gemeinde,60662,"Fernitz-Mellach",4951
+gemeinde,60663,"Frohnleiten",6690
+gemeinde,60664,"Gratwein-Straßengel",12799
+gemeinde,60665,"Hitzendorf",7398
+gemeinde,60666,"Nestelbach bei Graz",2734
+gemeinde,60667,"Raaba-Grambach",5060
+gemeinde,60668,"Sankt Marein bei Graz",3752
+gemeinde,60669,"Seiersberg-Pirka",12289
+gemeinde,60670,"Premstätten",7178
+gemeinde,61001,"Allerheiligen bei Wildon",1615
+gemeinde,61002,"Arnfels",960
+gemeinde,61007,"Empersdorf",1394
+gemeinde,61008,"Gabersdorf",1310
+gemeinde,61012,"Gralla",2876
+gemeinde,61013,"Großklein",2232
+gemeinde,61016,"Heimschuh",1997
+gemeinde,61017,"Hengsberg",1574
+gemeinde,61019,"Kitzeck im Sausal",1175
+gemeinde,61020,"Lang",1373
+gemeinde,61021,"Lebring-Sankt Margarethen",2260
+gemeinde,61024,"Oberhaag",2021
+gemeinde,61027,"Ragnitz",1647
+gemeinde,61030,"Sankt Andrä-Höch",1730
+gemeinde,61032,"Sankt Johann im Saggautal",1961
+gemeinde,61033,"Sankt Nikolai im Sausal",2345
+gemeinde,61043,"Tillmitsch",3959
+gemeinde,61045,"Wagna",6524
+gemeinde,61049,"Ehrenhausen an der Weinstraße",2410
+gemeinde,61050,"Gamlitz",3144
+gemeinde,61051,"Gleinstätten",2811
+gemeinde,61052,"Heiligenkreuz am Waasen",2928
+gemeinde,61053,"Leibnitz",13517
+gemeinde,61054,"Leutschach an der Weinstraße",3535
+gemeinde,61055,"Sankt Georgen an der Stiefing",1614
+gemeinde,61057,"Schwarzautal",2361
+gemeinde,61059,"Wildon",5745
+gemeinde,61060,"Sankt Veit in der Südsteiermark",4426
+gemeinde,61061,"Straß in Steiermark",6535
+gemeinde,61101,"Eisenerz",3362
+gemeinde,61105,"Kalwang",1040
+gemeinde,61106,"Kammern im Liesingtal",1671
+gemeinde,61107,"Kraubath an der Mur",1339
+gemeinde,61108,"Leoben",24561
+gemeinde,61109,"Mautern in Steiermark",1656
+gemeinde,61110,"Niklasdorf",2346
+gemeinde,61111,"Proleb",1553
+gemeinde,61112,"Radmer",474
+gemeinde,61113,"Sankt Michael in Obersteiermark",3027
+gemeinde,61114,"Sankt Peter-Freienstein",2306
+gemeinde,61115,"Sankt Stefan ob Leoben",1816
+gemeinde,61116,"Traboch",1417
+gemeinde,61118,"Vordernberg",945
+gemeinde,61119,"Wald am Schoberpaß",528
+gemeinde,61120,"Trofaiach",11030
+gemeinde,61203,"Aigen im Ennstal",2745
+gemeinde,61204,"Altaussee",1913
+gemeinde,61205,"Altenmarkt bei Sankt Gallen",779
+gemeinde,61206,"Ardning",1308
+gemeinde,61207,"Bad Aussee",4988
+gemeinde,61213,"Gröbming",3202
+gemeinde,61215,"Grundlsee",1181
+gemeinde,61217,"Haus",2451
+gemeinde,61222,"Lassing",1684
+gemeinde,61236,"Ramsau am Dachstein",2910
+gemeinde,61243,"Selzthal",1476
+gemeinde,61247,"Trieben",3297
+gemeinde,61251,"Wildalpen",432
+gemeinde,61252,"Wörschach",1226
+gemeinde,61253,"Admont",4910
+gemeinde,61254,"Aich",1322
+gemeinde,61255,"Bad Mitterndorf",4964
+gemeinde,61256,"Gaishorn am See",1356
+gemeinde,61257,"Irdning-Donnersbachtal",4173
+gemeinde,61258,"Landl",2474
+gemeinde,61259,"Liezen",8147
+gemeinde,61260,"Michaelerberg-Pruggern",1271
+gemeinde,61261,"Mitterberg-Sankt Martin",1975
+gemeinde,61262,"Öblarn",1891
+gemeinde,61263,"Rottenmann",4960
+gemeinde,61264,"Sankt Gallen",1797
+gemeinde,61265,"Schladming",6572
+gemeinde,61266,"Sölk",1461
+gemeinde,61267,"Stainach-Pürgg",2714
+gemeinde,61410,"Mühlen",864
+gemeinde,61413,"Niederwölz",597
+gemeinde,61425,"Sankt Peter am Kammersberg",1978
+gemeinde,61428,"Schöder",865
+gemeinde,61437,"Krakau",1355
+gemeinde,61438,"Murau",3330
+gemeinde,61439,"Neumarkt in der Steiermark",4805
+gemeinde,61440,"Oberwölz",2917
+gemeinde,61441,"Ranten",1115
+gemeinde,61442,"Sankt Georgen am Kreischberg",1666
+gemeinde,61443,"Sankt Lambrecht",1784
+gemeinde,61444,"Scheifling",2117
+gemeinde,61445,"Stadl-Predlitz",1672
+gemeinde,61446,"Teufenbach-Katsch",1833
+gemeinde,61611,"Krottendorf-Gaisfeld",2416
+gemeinde,61612,"Ligist",3232
+gemeinde,61615,"Mooskirchen",2226
+gemeinde,61618,"Rosental an der Kainach",1682
+gemeinde,61621,"Sankt Martin am Wöllmißberg",790
+gemeinde,61624,"Stallhofen",3257
+gemeinde,61625,"Voitsberg",9547
+gemeinde,61626,"Bärnbach",5894
+gemeinde,61627,"Edelschrott",1640
+gemeinde,61628,"Geistthal-Södingberg",1425
+gemeinde,61629,"Hirschegg-Pack",1004
+gemeinde,61630,"Kainach bei Voitsberg",1510
+gemeinde,61631,"Köflach",9489
+gemeinde,61632,"Maria Lankowitz",2703
+gemeinde,61633,"Söding-Sankt Johann",4357
+gemeinde,61701,"Albersdorf-Prebuch",2288
+gemeinde,61708,"Fischbach",1493
+gemeinde,61710,"Floing",1199
+gemeinde,61711,"Gasen",848
+gemeinde,61716,"Markt Hartmannsdorf",2997
+gemeinde,61719,"Hofstätten an der Raab",2368
+gemeinde,61727,"Ludersdorf-Wilfersdorf",2581
+gemeinde,61728,"Miesenbach bei Birkfeld",666
+gemeinde,61729,"Mitterdorf an der Raab",2140
+gemeinde,61730,"Mortantsch",2269
+gemeinde,61731,"Naas",1321
+gemeinde,61740,"Puch bei Weiz",2049
+gemeinde,61741,"Ratten",1087
+gemeinde,61743,"Rettenegg",688
+gemeinde,61744,"Sankt Kathrein am Hauenstein",613
+gemeinde,61745,"Sankt Kathrein am Offenegg",1068
+gemeinde,61746,"Sankt Margarethen an der Raab",4199
+gemeinde,61748,"Sinabelkirchen",4491
+gemeinde,61750,"Strallegg",1904
+gemeinde,61751,"Thannhausen",2427
+gemeinde,61756,"Anger",3992
+gemeinde,61757,"Birkfeld",4941
+gemeinde,61758,"Fladnitz an der Teichalm",1799
+gemeinde,61759,"Gersdorf an der Feistritz",1745
+gemeinde,61760,"Gleisdorf",11533
+gemeinde,61761,"Gutenberg",1641
+gemeinde,61762,"Ilztal",2243
+gemeinde,61763,"Passail",4366
+gemeinde,61764,"Pischelsdorf am Kulm",3898
+gemeinde,61765,"Sankt Ruprecht an der Raab",5681
+gemeinde,61766,"Weiz",12116
+gemeinde,62007,"Fohnsdorf",7662
+gemeinde,62008,"Gaal",1301
+gemeinde,62010,"Hohentauern",372
+gemeinde,62014,"Kobenz",2091
+gemeinde,62021,"Pusterwald",426
+gemeinde,62026,"Sankt Georgen ob Judenburg",823
+gemeinde,62032,"Sankt Peter ob Judenburg",1119
+gemeinde,62034,"Seckau",1326
+gemeinde,62036,"Unzmarkt-Frauenburg",1274
+gemeinde,62038,"Zeltweg",6993
+gemeinde,62039,"Lobmingtal",1820
+gemeinde,62040,"Judenburg",9607
+gemeinde,62041,"Knittelfeld",12870
+gemeinde,62042,"Obdach",3788
+gemeinde,62043,"Pöls-Oberkurzheim",2762
+gemeinde,62044,"Pölstal",2515
+gemeinde,62045,"Sankt Marein-Feistritz",1995
+gemeinde,62046,"Sankt Margarethen bei Knittelfeld",2666
+gemeinde,62047,"Spielberg",5351
+gemeinde,62048,"Weißkirchen in Steiermark",4755
+gemeinde,62105,"Breitenau am Hochlantsch",1561
+gemeinde,62115,"Krieglach",5438
+gemeinde,62116,"Langenwang",3902
+gemeinde,62125,"Pernegg an der Mur",2572
+gemeinde,62128,"Sankt Lorenzen im Mürztal",3766
+gemeinde,62131,"Spital am Semmering",1424
+gemeinde,62132,"Stanz im Mürztal",1769
+gemeinde,62135,"Turnau",1553
+gemeinde,62138,"Aflenz",2445
+gemeinde,62139,"Bruck an der Mur",15735
+gemeinde,62140,"Kapfenberg",21907
+gemeinde,62141,"Kindberg",8149
+gemeinde,62142,"Mariazell",3547
+gemeinde,62143,"Mürzzuschlag",7819
+gemeinde,62144,"Neuberg an der Mürz",2249
+gemeinde,62145,"Sankt Barbara im Mürztal",6412
+gemeinde,62146,"Sankt Marein im Mürztal",2879
+gemeinde,62147,"Thörl",2159
+gemeinde,62148,"Tragöß-Sankt Katharein",1791
+gemeinde,62202,"Bad Blumau",1672
+gemeinde,62205,"Buch-Sankt Magdalena",2195
+gemeinde,62206,"Burgau",1087
+gemeinde,62209,"Ebersdorf",1304
+gemeinde,62211,"Friedberg",2677
+gemeinde,62214,"Greinbach",1856
+gemeinde,62216,"Großsteinbach",1297
+gemeinde,62219,"Hartberg",6725
+gemeinde,62220,"Hartberg Umgebung",2216
+gemeinde,62226,"Lafnitz",1451
+gemeinde,62232,"Ottendorf an der Rittschein",1612
+gemeinde,62233,"Pinggau",3081
+gemeinde,62235,"Pöllauberg",1967
+gemeinde,62242,"Sankt Jakob im Walde",1021
+gemeinde,62244,"Sankt Johann in der Haide",2321
+gemeinde,62245,"Sankt Lorenzen am Wechsel",1416
+gemeinde,62247,"Schäffern",1342
+gemeinde,62256,"Stubenberg",2224
+gemeinde,62262,"Wenigzell",1370
+gemeinde,62264,"Bad Waltersdorf",3978
+gemeinde,62265,"Dechantskirchen",2005
+gemeinde,62266,"Feistritztal",2324
+gemeinde,62268,"Grafendorf bei Hartberg",3247
+gemeinde,62269,"Großwilfersdorf",2103
+gemeinde,62270,"Hartl",2119
+gemeinde,62271,"Ilz",3842
+gemeinde,62272,"Kaindorf",3030
+gemeinde,62273,"Bad Loipersdorf",1823
+gemeinde,62274,"Neudau",1511
+gemeinde,62275,"Pöllau",5890
+gemeinde,62276,"Rohr bei Hartberg",1397
+gemeinde,62277,"Rohrbach an der Lafnitz",2611
+gemeinde,62278,"Vorau",4591
+gemeinde,62279,"Waldbach-Mönichwald",1386
+gemeinde,62280,"Fürstenfeld",10391
+gemeinde,62311,"Edelsbach bei Feldbach",1356
+gemeinde,62314,"Eichkögl",1387
+gemeinde,62326,"Halbenrain",1696
+gemeinde,62330,"Jagerberg",1588
+gemeinde,62332,"Kapfenstein",1499
+gemeinde,62335,"Klöch",1162
+gemeinde,62343,"Mettersdorf am Saßbach",1360
+gemeinde,62368,"Tieschen",1193
+gemeinde,62372,"Unterlamm",1265
+gemeinde,62375,"Bad Gleichenberg",5232
+gemeinde,62376,"Bad Radkersburg",3220
+gemeinde,62377,"Deutsch Goritz",1779
+gemeinde,62378,"Fehring",7146
+gemeinde,62379,"Feldbach",13495
+gemeinde,62380,"Gnas",5969
+gemeinde,62381,"Kirchbach-Zerlach",3200
+gemeinde,62382,"Kirchberg an der Raab",4574
+gemeinde,62383,"Mureck",3503
+gemeinde,62384,"Paldau",3142
+gemeinde,62385,"Pirching am Traubenberg",2513
+gemeinde,62386,"Riegersburg",4950
+gemeinde,62387,"Sankt Anna am Aigen",2350
+gemeinde,62388,"Sankt Peter am Ottersbach",2884
+gemeinde,62389,"Sankt Stefan im Rosental",3795
+gemeinde,62390,"Straden",3400
+gemeinde,70101,"Innsbruck",132499
+gemeinde,70201,"Arzl im Pitztal",3195
+gemeinde,70202,"Haiming",4877
+gemeinde,70203,"Imst",11183
+gemeinde,70204,"Imsterberg",832
+gemeinde,70205,"Jerzens",889
+gemeinde,70206,"Karres",621
+gemeinde,70207,"Karrösten",721
+gemeinde,70208,"Längenfeld",4911
+gemeinde,70209,"Mieming",3946
+gemeinde,70210,"Mils bei Imst",667
+gemeinde,70211,"Mötz",1380
+gemeinde,70212,"Nassereith",2263
+gemeinde,70213,"Obsteig",1460
+gemeinde,70214,"Oetz",2411
+gemeinde,70215,"Rietz",2518
+gemeinde,70216,"Roppen",1969
+gemeinde,70217,"Sankt Leonhard im Pitztal",1450
+gemeinde,70218,"Sautens",1609
+gemeinde,70219,"Silz",2625
+gemeinde,70220,"Sölden",3080
+gemeinde,70221,"Stams",1574
+gemeinde,70222,"Tarrenz",2813
+gemeinde,70223,"Umhausen",3534
+gemeinde,70224,"Wenns",2160
+gemeinde,70301,"Absam",7333
+gemeinde,70302,"Aldrans",2828
+gemeinde,70303,"Ampass",1829
+gemeinde,70304,"Axams",6361
+gemeinde,70305,"Baumkirchen",1261
+gemeinde,70306,"Birgitz",1478
+gemeinde,70307,"Ellbögen",1180
+gemeinde,70308,"Flaurling",1325
+gemeinde,70309,"Fritzens",2191
+gemeinde,70310,"Fulpmes",4623
+gemeinde,70311,"Gnadenwald",858
+gemeinde,70312,"Götzens",4220
+gemeinde,70313,"Gries am Brenner",1341
+gemeinde,70314,"Gries im Sellrain",633
+gemeinde,70315,"Grinzens",1489
+gemeinde,70317,"Gschnitz",466
+gemeinde,70318,"Hatting",1491
+gemeinde,70319,"Inzing",4146
+gemeinde,70320,"Kematen in Tirol",3319
+gemeinde,70322,"Kolsass",1675
+gemeinde,70323,"Kolsassberg",879
+gemeinde,70325,"Lans",1195
+gemeinde,70326,"Leutasch",2550
+gemeinde,70328,"Mieders",2000
+gemeinde,70329,"Mils",4720
+gemeinde,70331,"Mutters",2309
+gemeinde,70332,"Natters",2167
+gemeinde,70333,"Navis",2052
+gemeinde,70334,"Neustift im Stubaital",5002
+gemeinde,70335,"Oberhofen im Inntal",1953
+gemeinde,70336,"Obernberg am Brenner",397
+gemeinde,70337,"Oberperfuss",3155
+gemeinde,70338,"Patsch",1146
+gemeinde,70339,"Pettnau",1124
+gemeinde,70340,"Pfaffenhofen",1308
+gemeinde,70342,"Polling in Tirol",1384
+gemeinde,70343,"Ranggen",1141
+gemeinde,70344,"Reith bei Seefeld",1572
+gemeinde,70345,"Rinn",1927
+gemeinde,70346,"Rum",9493
+gemeinde,70347,"Sankt Sigmund im Sellrain",177
+gemeinde,70348,"Scharnitz",1416
+gemeinde,70349,"Schmirn",870
+gemeinde,70350,"Schönberg im Stubaital",1074
+gemeinde,70351,"Seefeld in Tirol",3616
+gemeinde,70352,"Sellrain",1352
+gemeinde,70353,"Sistrans",2299
+gemeinde,70354,"Hall in Tirol",14698
+gemeinde,70355,"Steinach am Brenner",3661
+gemeinde,70356,"Telfes im Stubai",1626
+gemeinde,70357,"Telfs",16439
+gemeinde,70358,"Thaur",4365
+gemeinde,70359,"Trins",1391
+gemeinde,70360,"Tulfes",1739
+gemeinde,70361,"Unterperfuss",246
+gemeinde,70362,"Vals",531
+gemeinde,70364,"Völs",7339
+gemeinde,70365,"Volders",4624
+gemeinde,70366,"Wattenberg",793
+gemeinde,70367,"Wattens",8138
+gemeinde,70368,"Wildermieming",1017
+gemeinde,70369,"Zirl",8250
+gemeinde,70370,"Matrei am Brenner",3561
+gemeinde,70401,"Aurach bei Kitzbühel",1129
+gemeinde,70402,"Brixen im Thale",2698
+gemeinde,70403,"Fieberbrunn",4551
+gemeinde,70404,"Going am Wilden Kaiser",1980
+gemeinde,70405,"Hochfilzen",1326
+gemeinde,70406,"Hopfgarten im Brixental",5847
+gemeinde,70407,"Itter",1176
+gemeinde,70408,"Jochberg",1517
+gemeinde,70409,"Kirchberg in Tirol",5206
+gemeinde,70410,"Kirchdorf in Tirol",4184
+gemeinde,70411,"Kitzbühel",8281
+gemeinde,70412,"Kössen",4602
+gemeinde,70413,"Oberndorf in Tirol",2378
+gemeinde,70414,"Reith bei Kitzbühel",1761
+gemeinde,70415,"Sankt Jakob in Haus",837
+gemeinde,70416,"Sankt Johann in Tirol",9891
+gemeinde,70417,"Sankt Ulrich am Pillersee",1949
+gemeinde,70418,"Schwendt",921
+gemeinde,70419,"Waidring",2085
+gemeinde,70420,"Westendorf",3748
+gemeinde,70501,"Alpbach",2545
+gemeinde,70502,"Angath",1013
+gemeinde,70503,"Bad Häring",3008
+gemeinde,70504,"Brandenberg",1513
+gemeinde,70505,"Breitenbach am Inn",3563
+gemeinde,70506,"Brixlegg",3120
+gemeinde,70508,"Ebbs",5966
+gemeinde,70509,"Ellmau",2954
+gemeinde,70510,"Erl",1623
+gemeinde,70511,"Kirchbichl",6029
+gemeinde,70512,"Kramsach",5088
+gemeinde,70513,"Kufstein",20212
+gemeinde,70514,"Kundl",5001
+gemeinde,70515,"Langkampfen",4332
+gemeinde,70516,"Mariastein",463
+gemeinde,70517,"Münster",3600
+gemeinde,70518,"Niederndorf",2912
+gemeinde,70519,"Niederndorferberg",726
+gemeinde,70520,"Radfeld",2542
+gemeinde,70521,"Rattenberg",462
+gemeinde,70522,"Reith im Alpbachtal",2867
+gemeinde,70523,"Rettenschöss",565
+gemeinde,70524,"Scheffau am Wilden Kaiser",1542
+gemeinde,70525,"Schwoich",2643
+gemeinde,70526,"Söll",3781
+gemeinde,70527,"Thiersee",3176
+gemeinde,70528,"Angerberg",1968
+gemeinde,70529,"Walchsee",2198
+gemeinde,70530,"Wildschönau",4405
+gemeinde,70531,"Wörgl",14412
+gemeinde,70601,"Faggen",397
+gemeinde,70602,"Fendels",291
+gemeinde,70603,"Fiss",1056
+gemeinde,70604,"Fließ",3105
+gemeinde,70605,"Flirsch",1009
+gemeinde,70606,"Galtür",789
+gemeinde,70607,"Grins",1391
+gemeinde,70608,"Ischgl",1635
+gemeinde,70609,"Kappl",2548
+gemeinde,70610,"Kaunerberg",456
+gemeinde,70611,"Kaunertal",632
+gemeinde,70612,"Kauns",549
+gemeinde,70613,"Ladis",548
+gemeinde,70614,"Landeck",7711
+gemeinde,70615,"Nauders",1561
+gemeinde,70616,"Pettneu am Arlberg",1450
+gemeinde,70617,"Pfunds",2585
+gemeinde,70618,"Pians",799
+gemeinde,70619,"Prutz",1879
+gemeinde,70620,"Ried im Oberinntal",1354
+gemeinde,70621,"Sankt Anton am Arlberg",2319
+gemeinde,70622,"Schönwies",1766
+gemeinde,70623,"See",1249
+gemeinde,70624,"Serfaus",1212
+gemeinde,70625,"Spiss",97
+gemeinde,70626,"Stanz bei Landeck",584
+gemeinde,70627,"Strengen",1197
+gemeinde,70628,"Tobadill",500
+gemeinde,70629,"Tösens",748
+gemeinde,70630,"Zams",3613
+gemeinde,70701,"Abfaltersbach",646
+gemeinde,70702,"Ainet",914
+gemeinde,70703,"Amlach",528
+gemeinde,70704,"Anras",1210
+gemeinde,70705,"Assling",1730
+gemeinde,70706,"Außervillgraten",715
+gemeinde,70707,"Dölsach",2319
+gemeinde,70708,"Gaimberg",865
+gemeinde,70709,"Hopfgarten in Defereggen",661
+gemeinde,70710,"Innervillgraten",905
+gemeinde,70711,"Iselsberg-Stronach",612
+gemeinde,70712,"Kals am Großglockner",1111
+gemeinde,70713,"Kartitsch",759
+gemeinde,70714,"Lavant",347
+gemeinde,70715,"Leisach",731
+gemeinde,70716,"Lienz",12107
+gemeinde,70717,"Matrei in Osttirol",4619
+gemeinde,70718,"Nikolsdorf",865
+gemeinde,70719,"Nußdorf-Debant",3415
+gemeinde,70720,"Oberlienz",1485
+gemeinde,70721,"Obertilliach",669
+gemeinde,70723,"Prägraten am Großvenediger",1134
+gemeinde,70724,"Sankt Jakob in Defereggen",821
+gemeinde,70725,"Sankt Johann im Walde",295
+gemeinde,70726,"Sankt Veit in Defereggen",616
+gemeinde,70727,"Schlaiten",469
+gemeinde,70728,"Sillian",2028
+gemeinde,70729,"Strassen",809
+gemeinde,70731,"Thurn",646
+gemeinde,70732,"Tristach",1500
+gemeinde,70733,"Untertilliach",213
+gemeinde,70734,"Virgen",2241
+gemeinde,70735,"Heinfels",1026
+gemeinde,70801,"Bach",658
+gemeinde,70802,"Berwang",630
+gemeinde,70803,"Biberwier",665
+gemeinde,70804,"Bichlbach",794
+gemeinde,70805,"Breitenwang",1440
+gemeinde,70806,"Ehenbichl",839
+gemeinde,70807,"Ehrwald",2620
+gemeinde,70808,"Elbigenalp",882
+gemeinde,70809,"Elmen",394
+gemeinde,70810,"Forchach",258
+gemeinde,70811,"Grän",639
+gemeinde,70812,"Gramais",43
+gemeinde,70813,"Häselgehr",696
+gemeinde,70814,"Heiterwang",555
+gemeinde,70815,"Hinterhornbach",89
+gemeinde,70816,"Höfen",1287
+gemeinde,70817,"Holzgau",386
+gemeinde,70818,"Jungholz",299
+gemeinde,70819,"Kaisers",71
+gemeinde,70820,"Lechaschau",2074
+gemeinde,70821,"Lermoos",1155
+gemeinde,70822,"Musau",382
+gemeinde,70823,"Namlos",54
+gemeinde,70824,"Nesselwängle",465
+gemeinde,70825,"Pfafflar",93
+gemeinde,70826,"Pflach",1665
+gemeinde,70827,"Pinswang",424
+gemeinde,70828,"Reutte",7308
+gemeinde,70829,"Schattwald",465
+gemeinde,70830,"Stanzach",515
+gemeinde,70831,"Steeg",643
+gemeinde,70832,"Tannheim",1171
+gemeinde,70833,"Vils",1517
+gemeinde,70834,"Vorderhornbach",279
+gemeinde,70835,"Wängle",999
+gemeinde,70836,"Weißenbach am Lech",1253
+gemeinde,70837,"Zöblen",239
+gemeinde,70901,"Achenkirch",2238
+gemeinde,70902,"Aschau im Zillertal",1886
+gemeinde,70903,"Brandberg",383
+gemeinde,70904,"Bruck am Ziller",1135
+gemeinde,70905,"Buch in Tirol",2610
+gemeinde,70907,"Eben am Achensee",3560
+gemeinde,70908,"Finkenberg",1422
+gemeinde,70909,"Fügen",4317
+gemeinde,70910,"Fügenberg",1504
+gemeinde,70911,"Gallzein",697
+gemeinde,70912,"Gerlos",792
+gemeinde,70913,"Gerlosberg",480
+gemeinde,70914,"Hainzenberg",750
+gemeinde,70915,"Hart im Zillertal",1682
+gemeinde,70916,"Hippach",1437
+gemeinde,70917,"Jenbach",7644
+gemeinde,70918,"Kaltenbach",1294
+gemeinde,70920,"Mayrhofen",3979
+gemeinde,70921,"Pill",1279
+gemeinde,70922,"Ramsau im Zillertal",1745
+gemeinde,70923,"Ried im Zillertal",1236
+gemeinde,70924,"Rohrberg",588
+gemeinde,70925,"Schlitters",1594
+gemeinde,70926,"Schwaz",14480
+gemeinde,70927,"Schwendau",1788
+gemeinde,70928,"Stans",2244
+gemeinde,70929,"Steinberg am Rofan",298
+gemeinde,70930,"Strass im Zillertal",842
+gemeinde,70931,"Stumm",1916
+gemeinde,70932,"Stummerberg",869
+gemeinde,70933,"Terfens",2298
+gemeinde,70934,"Tux",1913
+gemeinde,70935,"Uderns",2025
+gemeinde,70936,"Vomp",5479
+gemeinde,70937,"Weer",1830
+gemeinde,70938,"Weerberg",2570
+gemeinde,70939,"Wiesing",2224
+gemeinde,70940,"Zell am Ziller",1757
+gemeinde,70941,"Zellberg",662
+gemeinde,80101,"Bartholomäberg",2419
+gemeinde,80102,"Blons",351
+gemeinde,80103,"Bludenz",15102
+gemeinde,80104,"Bludesch",2608
+gemeinde,80105,"Brand",754
+gemeinde,80106,"Bürs",3447
+gemeinde,80107,"Bürserberg",617
+gemeinde,80108,"Dalaas",1627
+gemeinde,80109,"Fontanella",468
+gemeinde,80110,"Gaschurn",1570
+gemeinde,80111,"Innerbraz",1091
+gemeinde,80112,"Klösterle",667
+gemeinde,80113,"Lech",1569
+gemeinde,80114,"Lorüns",305
+gemeinde,80115,"Ludesch",3696
+gemeinde,80116,"Nenzing",6528
+gemeinde,80117,"Nüziders",4957
+gemeinde,80118,"Raggal",903
+gemeinde,80119,"Sankt Anton im Montafon",728
+gemeinde,80120,"Sankt Gallenkirch",2222
+gemeinde,80121,"Sankt Gerold",396
+gemeinde,80122,"Schruns",4000
+gemeinde,80123,"Silbertal",849
+gemeinde,80124,"Sonntag",624
+gemeinde,80125,"Stallehr",284
+gemeinde,80126,"Thüringen",2336
+gemeinde,80127,"Thüringerberg",745
+gemeinde,80128,"Tschagguns",2257
+gemeinde,80129,"Vandans",2828
+gemeinde,80201,"Alberschwende",3338
+gemeinde,80202,"Andelsbuch",2705
+gemeinde,80203,"Au",1905
+gemeinde,80204,"Bezau",2034
+gemeinde,80205,"Bildstein",830
+gemeinde,80206,"Bizau",1113
+gemeinde,80207,"Bregenz",29476
+gemeinde,80208,"Buch",598
+gemeinde,80209,"Damüls",339
+gemeinde,80210,"Doren",1048
+gemeinde,80211,"Egg",3774
+gemeinde,80212,"Eichenberg",419
+gemeinde,80213,"Fußach",4080
+gemeinde,80214,"Gaißau",1886
+gemeinde,80215,"Hard",13639
+gemeinde,80216,"Hittisau",2068
+gemeinde,80217,"Höchst",8566
+gemeinde,80218,"Hörbranz",6731
+gemeinde,80219,"Hohenweiler",1423
+gemeinde,80220,"Kennelbach",1860
+gemeinde,80221,"Krumbach",1110
+gemeinde,80222,"Langen bei Bregenz",1500
+gemeinde,80223,"Langenegg",1187
+gemeinde,80224,"Lauterach",10568
+gemeinde,80225,"Lingenau",1594
+gemeinde,80226,"Lochau",6696
+gemeinde,80227,"Mellau",1303
+gemeinde,80228,"Mittelberg",5077
+gemeinde,80229,"Möggers",559
+gemeinde,80230,"Reuthe",671
+gemeinde,80231,"Riefensberg",1070
+gemeinde,80232,"Schnepfau",485
+gemeinde,80233,"Schoppernau",941
+gemeinde,80234,"Schröcken",216
+gemeinde,80235,"Schwarzach",3854
+gemeinde,80236,"Schwarzenberg",1900
+gemeinde,80237,"Sibratsgfäll",475
+gemeinde,80238,"Sulzberg",1854
+gemeinde,80239,"Warth",184
+gemeinde,80240,"Wolfurt",8954
+gemeinde,80301,"Dornbirn",52108
+gemeinde,80302,"Hohenems",17432
+gemeinde,80303,"Lustenau",24603
+gemeinde,80401,"Altach",7198
+gemeinde,80402,"Düns",445
+gemeinde,80403,"Dünserberg",154
+gemeinde,80404,"Feldkirch",36708
+gemeinde,80405,"Frastanz",6670
+gemeinde,80406,"Fraxern",768
+gemeinde,80407,"Göfis",3332
+gemeinde,80408,"Götzis",12405
+gemeinde,80409,"Klaus",3073
+gemeinde,80410,"Koblach",4956
+gemeinde,80411,"Laterns",703
+gemeinde,80412,"Mäder",4249
+gemeinde,80413,"Meiningen",2532
+gemeinde,80414,"Rankweil",12157
+gemeinde,80415,"Röns",390
+gemeinde,80416,"Röthis",2239
+gemeinde,80417,"Satteins",2799
+gemeinde,80418,"Schlins",2592
+gemeinde,80419,"Schnifis",805
+gemeinde,80420,"Sulz",2712
+gemeinde,80421,"Übersaxen",622
+gemeinde,80422,"Viktorsberg",438
+gemeinde,80423,"Weiler",2297
+gemeinde,80424,"Zwischenwasser",3419
+gemeinde,90001,"Wien",2028289
+gemeinde,90101,"Wien 1., Innere Stadt",16281
+gemeinde,90201,"Wien 2., Leopoldstadt",112675
+gemeinde,90301,"Wien 3., Landstraße",98881
+gemeinde,90401,"Wien 4., Wieden",33444
+gemeinde,90501,"Wien 5., Margareten",54581
+gemeinde,90601,"Wien 6., Mariahilf",31083
+gemeinde,90701,"Wien 7., Neubau",31330
+gemeinde,90801,"Wien 8., Josefstadt",24242
+gemeinde,90901,"Wien 9., Alsergrund",41664
+gemeinde,91001,"Wien 10., Favoriten",223190
+gemeinde,91101,"Wien 11., Simmering",112149
+gemeinde,91201,"Wien 12., Meidling",102393
+gemeinde,91301,"Wien 13., Hietzing",56108
+gemeinde,91401,"Wien 14., Penzing",99049
+gemeinde,91501,"Wien 15., Rudolfsheim-Fünfhaus",75902
+gemeinde,91601,"Wien 16., Ottakring",102727
+gemeinde,91701,"Wien 17., Hernals",56767
+gemeinde,91801,"Wien 18., Währing",51376
+gemeinde,91901,"Wien 19., Döbling",76074
+gemeinde,92001,"Wien 20., Brigittenau",86950
+gemeinde,92101,"Wien 21., Floridsdorf",189551
+gemeinde,92201,"Wien 22., Donaustadt",228158
+gemeinde,92301,"Wien 23., Liesing",123714

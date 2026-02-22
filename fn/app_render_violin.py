@@ -17,7 +17,7 @@ def render_violin(df, ad_type):
     )
 
     fig.update_layout(
-        yaxis_title="Total Price (€)",
+        yaxis_title="Price in €",
         xaxis_title=None,
         margin=dict(t=10, b=10, l=10, r=10),
         showlegend=False,

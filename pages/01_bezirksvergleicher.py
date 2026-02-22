@@ -8,7 +8,7 @@ from fn.app_render_ecdf import render_ecdf
 from fn.app_render_violin import render_violin
 import plotly.express as px
 
-placeholders = init_page()
+init_page()
 
 ad_type = st.sidebar.selectbox(
     "Ad Type", 
@@ -16,7 +16,7 @@ ad_type = st.sidebar.selectbox(
     key="sb_ad_type"
 ).lower()
 
-df = load_parquet_data(f"{ad_type}_full.parquet")
+df = load_parquet_data(ad_type)
     
 with st.sidebar.expander("Comparison Settings", expanded=True):
     bdl_values = get_values(df, "bundesland", True)
@@ -61,7 +61,7 @@ if not frames:
 
 compare_df = pd.concat(frames)
 
-display_metadata(placeholders, ad_type, df, compare_df, False)
+display_metadata(ad_type, df, compare_df, False)
 
 view_mode = st.radio(
     "Select Visualization Type:",
