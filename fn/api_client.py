@@ -12,7 +12,7 @@ import math
 def api_client(
         driver, 
         real_estate_search_type:str,
-        load_type:str = "full",
+        load_type:str = "preview",
         base_url:str = config.LISTINGS_PLATFORM_URL,
         wait_time:int = 5,
         n_objects_per_page:int = 200

@@ -3,6 +3,7 @@ from fn.create_chrome_driver import create_chrome_driver
 from fn.api_client import api_client
 from fn.postgres_connection import postgres_connect, postgres_disconnect
 from fn.insert_sql import insert_sql
+from sqlalchemy import text
 
 def execute(
         load_type:str = "preview",
@@ -26,13 +27,13 @@ def execute(
             .str.replace("/", "_", regex=False)
         )
         
-        query = f"""
+        query = text("""
             SELECT column_name
             FROM information_schema.columns
-            WHERE table_schema = '{schema}'
-            AND table_name = '{table}'
+            WHERE table_schema = :schema
+            AND table_name = :table
             ORDER BY ordinal_position
-        """
+        """)
         
         result = conn.execute(query, {"schema": schema, "table": table})
         column_names = [row[0] for row in result]    
