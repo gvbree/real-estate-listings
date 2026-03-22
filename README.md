@@ -19,6 +19,10 @@ For learning purposes, two deployment methods were successfully implemented:
 - using Kubernetes & Rancher
 - using Streamlit Cloud
 
+## Access
+This dashboard is part of a private project and is not publicly accessible.  
+The listings dataset used by the dashboard is also not distributed.
+
 ## Demo
 ![Choropleth - Bezirk level - Austria](https://phcapxmqcsxtclmwbflc.supabase.co/storage/v1/object/public/dashboard-demo/choropleth_1.png)
 ![Choropleth - Gemeinde level - Klagenfurt-Villach](https://phcapxmqcsxtclmwbflc.supabase.co/storage/v1/object/public/dashboard-demo/choropleth_2.png)
