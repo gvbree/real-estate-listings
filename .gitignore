@@ -1,6 +1,7 @@
 **/__pycache__/
 data/db
 ddl/
+notes/
 .vscode/
 .spyproject/
 .ipynb_checkpoints/
