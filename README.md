@@ -20,8 +20,10 @@ For learning purposes, two deployment methods were successfully implemented:
 - using Streamlit Cloud
 
 ## Access
-This dashboard is part of a private project and is not publicly accessible.  
-The listings dataset used by the dashboard is also not distributed.
+This dashboard is part of a private project and is not publicly accessible. The listings dataset used by the dashboard is also not distributed.
+
+For the private access, uptime of the Supabase-backend data is maintained through a GitHub Action. Status:
+[![Supabase Keep Alive](https://github.com/gvbree/real-estate-listings/actions/workflows/supabase_keep_alive.yml/badge.svg)](https://github.com/gvbree/real-estate-listings/actions)
 
 ## Demo
 ![Choropleth - Bezirk level - Austria](https://phcapxmqcsxtclmwbflc.supabase.co/storage/v1/object/public/dashboard-demo/choropleth_1.png)
