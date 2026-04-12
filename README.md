@@ -2,7 +2,7 @@
 The real estate market is interesting for many macro-economic purposes. This showcase project extracts Austrian real estate listing data from the web. The data is then cleaned, processed, enriched with other data, and eventually visualized in a simple interactive Streamlit dashboard. 
 
 ## Purpose & Disclaimer
-This project was built strictly for **learning and showcase purposes** and has no commercial intent. It serves as a personal deep-dive into the architecture design, geographical data visualization, and deployment learning purposes.
+This private project was built strictly for **learning and showcase purposes** and has no commercial intent. It serves as a personal deep-dive into the architecture design, geographical data visualization, and deployment learning purposes.
 
 ## Architecture
 Web -> Postgres (local) -> Supabase bucket (cloud) -> Streamlit dashboard
@@ -18,6 +18,10 @@ The dashboard consists of two pages: *Karte* (map) and *Bezirksvergleicher* (dis
 For learning purposes, two deployment methods were successfully implemented:
 - using Kubernetes & Rancher
 - using Streamlit Cloud
+
+## Access
+This dashboard is part of a private project and is not publicly accessible.  
+The listings dataset used by the dashboard is also not distributed.
 
 ## Demo
 ![Choropleth - Bezirk level - Austria](https://phcapxmqcsxtclmwbflc.supabase.co/storage/v1/object/public/dashboard-demo/choropleth_1.png)
