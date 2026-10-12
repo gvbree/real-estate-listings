@@ -1,8 +1,11 @@
 name: Supabase Keep Alive
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 5 * * *
   workflow_dispatch:
+
+permissions:
+  actions: write
 
 jobs:
   ping:
@@ -13,3 +16,9 @@ jobs:
           curl -X GET "${{ secrets.SUPABASE_URL }}/rest/v1/" \
           -H "apikey: ${{ secrets.SUPABASE_SERVICE_KEY }}" \
           -H "Authorization: Bearer ${{ secrets.SUPABASE_SERVICE_KEY }}"
+
+      - name: Keep this workflow enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X PUT "repos/gvbree/real-estate-listings/actions/workflows/supabase_keep_alive.yml/enable"
